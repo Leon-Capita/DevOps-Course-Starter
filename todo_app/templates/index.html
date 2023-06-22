@@ -4,15 +4,43 @@
 {% block content %}
   <div class="jumbotron">
     <h1 class="display-4">To-Do App</h1>
-    <p class="lead">Just another to-do app.</p>
+    <p class="lead">Leon's to-do app 'Today, Ta-Da!'.</p>
+    <input type="button" onclick="alert('v1.1 beta')" value="ABOUT">
   </div>
-
+  
+  <div class="row">
+    <form action="/add-item" method="POST">
+      <div class="form">
+        <input type="submit" value="Add todo item">
+        <label for="title">Todo item title: </label>
+        <input type="text" name="title" id="title" required>
+      </div>
+  </div>  
+  <br><br>
+  </form>
   <div class="row">
     <div class="col-md-12">
       <h2>Items</h2>
       <ul class="list-group mb-4">
         <!-- List the todo items here -->
+        {% for item in items_list %}
+          <li>{{item.id}}: {{item.title}} {{item.status}}</li>
+        {% endfor %}
       </ul>
     </div>
+
+    <form action="/upd-item" method="POST">
+      <br>
+        <div class="form">
+        <input type="submit" value="Update todo item">
+        <label for="title">Todo item id: </label>
+        <input type="number" name="id" id="id" maxlength="4" size="4">
+        <br>
+        <input type="text" name="title" id="title" >
+        <input type="text" name="status" id="status" >
+        <input type="checkbox" name="status" value="Bike">
+        <label for="checkbox"> Started?</label><br>
+      </div>
   </div>
+
 {% endblock %}
