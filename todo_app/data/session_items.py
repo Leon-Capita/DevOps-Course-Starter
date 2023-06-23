@@ -70,3 +70,22 @@ def save_item(item):
     updated_items = [item if item['id'] == existing_item['id'] else existing_item for existing_item in existing_items]
     session['items'] = updated_items
     return item
+
+def delete_item(id):
+    """
+    Deleted and existing item in the sessions.
+    Args:
+        item: The item to delete
+    """
+    existing_items = get_items()
+    #items.remove[id]
+    # for key, value in dict(existing_items).items():
+    #     if value == id:
+    #         del dict[key]
+    #del items[id]
+    #existing_items 
+    new_item_list = {k:v for k, v in existing_items.items() if v != id }
+
+    session['items'] = new_item_list
+    #return item
+    
