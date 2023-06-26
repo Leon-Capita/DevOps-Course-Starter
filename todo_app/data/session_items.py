@@ -23,13 +23,26 @@ _DEFAULT_ITEMS = [
 #     Todo_item(3,'Not Started','Another to sort'),
 # ]
 
+def get_id(_DEFAULT_ITEMS):
+    return _DEFAULT_ITEMS.get('id')
+
+
+def get_status(_DEFAULT_ITEMS):
+    return _DEFAULT_ITEMS.get('status')
+
+
+def get_title(_DEFAULT_ITEMS):
+    return _DEFAULT_ITEMS.get('title')
+
 def get_items():
     """
     Fetches all saved items from the session.
     Returns:
         list: The list of saved items.
     """
-    return session.get('items', _DEFAULT_ITEMS.copy())
+    sorted_items = _DEFAULT_ITEMS.sort(key=get_status)
+    #return session.get('items', _DEFAULT_ITEMS.copy())
+    return session.get('items', sorted_items)
 
 def get_item(id):
     """
@@ -84,7 +97,8 @@ def delete_item(id):
     #         del dict[key]
     #del items[id]
     #existing_items 
-    new_item_list = {k:v for k, v in existing_items.items() if v != id }
+    #new_item_list = {k:v for k, v in existing_items.items() if v != id }
+    new_item_list = [item for item in existing_items if item['id'] != id ]
 
     session['items'] = new_item_list
     #return item

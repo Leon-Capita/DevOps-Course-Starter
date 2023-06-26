@@ -49,22 +49,24 @@
         <input type="submit" value="Update todo item">
         <br>
         <label for="title">Todo item id: </label>
-        <input type="number" name="upd_id" id="upd_id" >
+        <input type="number" name="upd_id" id="upd_id" placeholder="0">
         <br>
         <label for="title">Updated title: </label>
         <input type="text" name="title" id="title" >
         <br>
         <label for="title">Updated status: </label>
+        <!--
         <input type="text" name="status" id="status" >
+        -->
         <div class="btn-group btn-group-toggle" data-toggle="buttons">
           <label class="btn btn-secondary active">
-            <input type="radio" name="options" id="option1" autocomplete="off" checked> Not started
+            <input type="radio" name="options" id="option1" autocomplete="off" value="Not started" checked> Not started
           </label>
           <label class="btn btn-secondary">
-            <input type="radio" name="options" id="option2" autocomplete="off"> In progress
+            <input type="radio" name="options" id="option2" autocomplete="off" value="In Progress" > In progress
           </label>
           <label class="btn btn-secondary">
-            <input type="radio" name="options" id="option3" autocomplete="off"> Complete
+            <input type="radio" name="options" id="option3" autocomplete="off" value="Complete" > Complete
           </label>
         </div>
         <!--

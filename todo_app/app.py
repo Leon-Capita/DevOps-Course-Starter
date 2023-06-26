@@ -1,17 +1,12 @@
-#from DevOps-Course-Starter.todo_app.data.session_items import get_items
-#from DevOps-Course-Starter.todo_app.data.session_items import add_item
-
 from todo_app.data.session_items import add_item, get_items, get_item, save_item, delete_item
 from flask import Flask, redirect, render_template, request
 from todo_app.flask_config import Config
-#from todo_app.data.session_items import get_items
 
 app = Flask(__name__)
 app.config.from_object(Config())
 
 @app.route('/')
 def index():
-    #return 'Hello World!'
     items = get_items()
     #unsorteditems = get_items()
     #items = (sorted(unsorteditems.status(), key=lambda item:item[1]))
@@ -34,7 +29,8 @@ def get_todo_item():
 def upd_todo_item():
     item_id = int(request.form.get('upd_id'))
     print(item_id)
-    item_status = request.form.get('status')
+    #item_status = request.form.get('status')
+    item_status = request.form.get("options")
     item_title = request.form.get('title')
     item = { 'id': item_id, 'status': item_status, 'title': item_title }
     save_item(item)
