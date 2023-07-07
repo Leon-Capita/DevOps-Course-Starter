@@ -1,4 +1,4 @@
-from flask import session
+from flask import session#, request
 
 _DEFAULT_ITEMS = [
    { 'id': 1, 'status': 'Not Started', 'title': 'List saved todo items' },
@@ -23,16 +23,14 @@ _DEFAULT_ITEMS = [
 #     Todo_item(3,'Not Started','Another to sort'),
 # ]
 
-def get_id(_DEFAULT_ITEMS):
-    return _DEFAULT_ITEMS.get('id')
+def get_id(val):
+    return val['id']
 
+def get_status(val):
+    return val['status']
 
-def get_status(_DEFAULT_ITEMS):
-    return _DEFAULT_ITEMS.get('status')
-
-
-def get_title(_DEFAULT_ITEMS):
-    return _DEFAULT_ITEMS.get('title')
+def get_title(val):
+    return val['title']
 
 def get_items():
     """
@@ -42,6 +40,7 @@ def get_items():
     """
     sorted_items = _DEFAULT_ITEMS.sort(key=get_status)
     #return session.get('items', _DEFAULT_ITEMS.copy())
+    print(session)
     return session.get('items', sorted_items)
 
 def get_item(id):

@@ -28,12 +28,13 @@ def get_todo_item():
 @app.route('/upd-item', methods = ["POST"])
 def upd_todo_item():
     item_id = int(request.form.get('upd_id'))
-    print(item_id)
-    #item_status = request.form.get('status')
-    item_status = request.form.get("options")
-    item_title = request.form.get('title')
-    item = { 'id': item_id, 'status': item_status, 'title': item_title }
-    save_item(item)
+    if(item_id>0):
+        print(item_id)
+        #item_status = request.form.get('status')
+        item_status = request.form.get("options")
+        item_title = request.form.get('title')
+        item = { 'id': item_id, 'status': item_status, 'title': item_title }
+        save_item(item)
     return redirect('/')
 
 # @app.route("/del-item", methods = ["POST"])
