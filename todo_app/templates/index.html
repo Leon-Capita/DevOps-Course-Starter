@@ -2,17 +2,151 @@
 {% block title %}To-Do App{% endblock %}
 
 {% block content %}
-  <div class="jumbotron">
+  <div class="jumbotron jumbotron-fluid">
     <h1 class="display-4">To-Do App</h1>
-    <p class="lead">Just another to-do app.</p>
+    <p class="lead">Leon's to-do app 'Today, Ta-Da!'.</p>
+    <input type="button" onclick="alert('v1.1 beta')" value="ABOUT">
   </div>
+
+  <div class="row">
+    <form action="/add-item" method="POST">
+      <div class="form">
+        <input type="submit" value="Add todo item">
+        <br>
+        <label for="title">Todo item title: </label>
+        <input type="text" name="title" id="title" required>
+      </div>
+  </div>  
+  <br><br>
+  </form>
+<!--
+  <div class="row">
+    <form action="/del-item" method="POST">
+      <div class="form">
+        <input type="submit" value="Delete todo item">
+        <label for="title">Todo item id: </label>
+        <input type="number" name="del_id" id="del_id" >
+      </div>
+  </div>  
+  <br><br>
+-->
+
 
   <div class="row">
     <div class="col-md-12">
       <h2>Items</h2>
       <ul class="list-group mb-4">
         <!-- List the todo items here -->
+        {% for item in items_list %}
+          <li>{{item.id}}: {{item.title}} {{item.status}}</li>
+        {% endfor %}
       </ul>
     </div>
+    
+    <form action="/upd-item" method="POST">
+      <br>
+        <div class="form">
+        <input type="submit" value="Update todo item">
+        <br>
+        <label for="title">Todo item id: </label>
+        <input type="number" name="upd_id" id="upd_id" placeholder="0" value="0">
+        <br>
+        <label for="title">Updated title: </label>
+        <input type="text" name="title" id="title" >
+        <br>
+        <label for="title">Updated status: </label>
+        <!--
+        <input type="text" name="status" id="status" >
+        -->
+        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+          <label class="btn btn-secondary active">
+            <input type="radio" name="options" id="option1" autocomplete="off" value="Not started" checked> Not started
+          </label>
+          <label class="btn btn-secondary">
+            <input type="radio" name="options" id="option2" autocomplete="off" value="In Progress" > In progress
+          </label>
+          <label class="btn btn-secondary">
+            <input type="radio" name="options" id="option3" autocomplete="off" value="Complete" > Complete
+          </label>
+        </div>
+        <!--
+        <input type="checkbox" name="status_checkbox" >
+        <label for="checkbox"> Started?</label>
+        -->
+        <br>
+      </div>
   </div>
+
+  <!--
+  <button type="button" class="btn btn-primary">Primary</button>
+  <button type="button" class="btn btn-secondary">Secondary</button>
+  <button type="button" class="btn btn-success">Success</button>
+  <button type="button" class="btn btn-danger">Danger</button>
+  <button type="button" class="btn btn-warning">Warning</button>
+  <button type="button" class="btn btn-info">Info</button>
+  <button type="button" class="btn btn-light">Light</button>
+  <button type="button" class="btn btn-dark">Dark</button>
+  
+  <button type="button" class="btn btn-link">Link</button>
+
+  <a class="btn btn-primary" href="#" role="button">Link</a>
+<button class="btn btn-primary" type="submit">Button</button>
+<input class="btn btn-primary" type="button" value="Input">
+<input class="btn btn-primary" type="submit" value="Submit">
+<input class="btn btn-primary" type="reset" value="Reset">
+
+<button type="button" class="btn btn-outline-primary">Primary</button>
+<button type="button" class="btn btn-outline-secondary">Secondary</button>
+<button type="button" class="btn btn-outline-success">Success</button>
+<button type="button" class="btn btn-outline-danger">Danger</button>
+<button type="button" class="btn btn-outline-warning">Warning</button>
+<button type="button" class="btn btn-outline-info">Info</button>
+<button type="button" class="btn btn-outline-light">Light</button>
+<button type="button" class="btn btn-outline-dark">Dark</button>
+
+<button type="button" class="btn btn-primary btn-lg">Large button</button>
+<button type="button" class="btn btn-secondary btn-lg">Large button</button>
+
+<button type="button" class="btn btn-primary btn-sm">Small button</button>
+<button type="button" class="btn btn-secondary btn-sm">Small button</button>
+
+<button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
+<button type="button" class="btn btn-secondary btn-lg btn-block">Block level button</button>
+
+<a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Primary link</a>
+<a href="#" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Link</a>
+
+<button type="button" class="btn btn-lg btn-primary" disabled>Primary button</button>
+<button type="button" class="btn btn-secondary btn-lg" disabled>Button</button>
+
+<a href="#" class="btn btn-primary btn-lg disabled" tabindex="-1" role="button" aria-disabled="true">Primary link</a>
+<a href="#" class="btn btn-secondary btn-lg disabled" tabindex="-1" role="button" aria-disabled="true">Link</a>
+
+<button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+  Single toggle
+</button>
+
+<div class="btn-group-toggle" data-toggle="buttons">
+  <label class="btn btn-secondary active">
+    <input type="checkbox" checked autocomplete="off"> Checked
+  </label>
+</div>
+
+<div class="btn-group btn-group-toggle" data-toggle="buttons">
+  <label class="btn btn-secondary active">
+    <input type="radio" name="options" id="option1" autocomplete="off" checked> Active
+  </label>
+  <label class="btn btn-secondary">
+    <input type="radio" name="options" id="option2" autocomplete="off"> Radio
+  </label>
+  <label class="btn btn-secondary">
+    <input type="radio" name="options" id="option3" autocomplete="off"> Radio
+  </label>
+</div>
+
+
+$().button('toggle')	Toggles push state. Gives the button the appearance that it has been activated.
+$().button('dispose')	Destroys an element’s button.
+-->
+
 {% endblock %}

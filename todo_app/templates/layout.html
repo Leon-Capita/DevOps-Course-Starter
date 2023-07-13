@@ -6,15 +6,18 @@
 
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title>{% block title %}To-Do App{% endblock %}</title>
+    <title margin-left: 20px>{% block title %}&nbspTo-Do App  {% endblock %}</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
-      <a class="navbar-brand" href="/">To-Do App</a>
+    <nav class="navbar navbar-expand-md navbar-light bg-light mb-4">
+      <img src="static/LM.png" width="30" height="30" alt="" vspace="10" hspace="0"> 
+      <img src="static/green-tick.png" width="30" height="30" alt="" vspace="10" hspace="10"> 
+      <a class="navbar-brand" href="/">  To-Do App - Today, Ta-Da!  </a>
     </nav>
 
     <div class="container body-content">
-      {% block content %}{% endblock %}
+      {% block content %}
+      {% endblock %}
     </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
