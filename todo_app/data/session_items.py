@@ -1,8 +1,9 @@
 from flask import session
 
 _DEFAULT_ITEMS = [
-    { 'id': 1, 'status': 'Not Started', 'title': 'List saved todo items' },
-    { 'id': 2, 'status': 'Not Started', 'title': 'Allow new items to be added' }
+    { 'id': 1, 'status': 'Todo', 'title': 'List saved todo items' },
+    { 'id': 2, 'status': 'Doin', 'title': 'Allow new items to be added' },
+    { 'id': 3, 'status': 'Done', 'title': '3rd done already' }
 ]
 
 
@@ -29,6 +30,13 @@ def get_item(id):
     items = get_items()
     return next((item for item in items if item['id'] == int(id)), None)
 
+# def get_item_by_title(title):
+#     items = get_items()
+#     for item in items:
+#         if item['title'] == title:
+#             print(f'{title}')
+#     return next((item for item in items if item['title'] == title), None)
+
 
 def add_item(title):
     """
@@ -45,7 +53,7 @@ def add_item(title):
     # Determine the ID for the item based on that of the previously added item
     id = items[-1]['id'] + 1 if items else 0
 
-    item = { 'id': id, 'title': title, 'status': 'Not Started' }
+    item = { 'id': id, 'title': title, 'status': 'Todo' }
 
     # Add the item to the list
     items.append(item)
@@ -67,3 +75,12 @@ def save_item(item):
     session['items'] = updated_items
 
     return item
+
+def mark_item_as_complete(item):
+    session[item] = item.status = 'Done'
+
+
+def get_item_title(item):
+    return item.title
+
+

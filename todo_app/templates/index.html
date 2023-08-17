@@ -1,18 +1,101 @@
 {% extends "layout.html" %}
 {% block title %}To-Do App{% endblock %}
-
 {% block content %}
-  <div class="jumbotron">
+  <div class="jumbotron jumbotron-fluid">
     <h1 class="display-4">To-Do App</h1>
-    <p class="lead">Just another to-do app.</p>
+    <p class="lead">Leon's to-do app 'Today, Ta-Da!'.</p>
+    <input type="button" onclick="alert('v1.1 beta')" value="ABOUT">
   </div>
+
+  <div class="row">
+    <form action="/add-item" method="POST">
+      <div class="form">
+        <input type="submit" value="Add todo item">
+        <br>
+        <label for="title">Todo item title: </label>
+        <input type="text" name="title" id="title" required>
+      </div>
+  </div>  
+  <br><br>
+  </form>
 
   <div class="row">
     <div class="col-md-12">
       <h2>Items</h2>
-      <ul class="list-group mb-4">
-        <!-- List the todo items here -->
-      </ul>
-    </div>
+      <br>
+      <h5>Items Todo</h5>
+        <ul class="list-group mb-4">
+        {% for item in view_model.todo_items %}
+          {{item.title}} <br>
+        {% endfor %}
+        </ul>
+      <h5>Items Doin</h5>
+        <ul class="list-group mb-4">
+        {% for item in view_model.doin_items %}
+          {{item.title}} <br>
+        {% endfor %}
+        </ul>
+      <h5>Items Done</h5>
+        <ul class="list-group mb-4">
+        {% for item in view_model.done_items %}
+          {{item.title}} <br>
+        {% endfor %}
+        </ul>
+   </div>
+
+
+   <br>
+   <h5>Update Item</h5>
+   <br>
+   <div class="row">
+    <form action="/upd-item" method="POST">
+      <br>
+      <label for="item">Item</label>
+      <select name="items" id="item">
+        <optgroup label="Todo items">
+          {% for item in view_model.todo_items %}
+          <option value={{item.title}}>{{item.title}}</option>
+          {% endfor %}
+        </optgroup>
+        <optgroup label="Doin items">
+          {% for item in view_model.doin_items %}
+          <option value={{item.title}}>{{item.title}}</option>
+          {% endfor %}
+        </optgroup>
+        <optgroup label="Done items">
+          {% for item in view_model.done_items %}
+          <option value={{item.title}}>{{item.title}}</option>
+          {% endfor %}
+        </optgroup>
+      </select>
+      <!--<input type="submit" value="Select" />-->
+
+
+
+      <div class="form">
+      <br>
+      <br>
+      <label for="title">Updated title: </label>
+        <input type="text" name="upd_title" id="title">
+        <br>
+        <label for="title">Updated status: </label>
+        <div class="btn-group btn-group-toggle" data-toggle="buttons">
+          <label class="btn btn-secondary active">
+            <input type="radio" name="options" id="option1" autocomplete="off" value="Todo" checked> Todo
+          </label>
+          <label class="btn btn-secondary">
+            <input type="radio" name="options" id="option2" autocomplete="off" value="Doin" > Doin
+          </label>
+          <label class="btn btn-secondary">
+            <input type="radio" name="options" id="option3" autocomplete="off" value="Done" > Done
+          </label>
+          <br>
+       </div>
+        
+
+      <br>
+      <input type="submit" value="Update todo item">
+    </form>
   </div>
+    
 {% endblock %}

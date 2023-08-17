@@ -1,0 +1,386 @@
+2023-08-17 15:40:13,050 WARNING :  * Debugger is active!
+2023-08-17 15:40:13,054 INFO :  * Debugger PIN: 131-473-301
+2023-08-17 15:40:13,476 WARNING :  * Debugger is active!
+2023-08-17 15:40:13,480 INFO :  * Debugger PIN: 131-473-301
+2023-08-17 15:40:35,440 INFO : 127.0.0.1 - - [17/Aug/2023 15:40:35] "GET / HTTP/1.1" 200 -
+2023-08-17 15:40:35,527 INFO : 127.0.0.1 - - [17/Aug/2023 15:40:35] "[36mGET /static/LM.png HTTP/1.1[0m" 304 -
+2023-08-17 15:40:35,529 INFO : 127.0.0.1 - - [17/Aug/2023 15:40:35] "[36mGET /static/green-tick.png HTTP/1.1[0m" 304 -
+2023-08-17 15:40:38,287 INFO : 127.0.0.1 - - [17/Aug/2023 15:40:38] "[32mPOST /add-item HTTP/1.1[0m" 302 -
+2023-08-17 15:40:38,296 INFO : 127.0.0.1 - - [17/Aug/2023 15:40:38] "GET / HTTP/1.1" 200 -
+2023-08-17 15:40:38,316 INFO : 127.0.0.1 - - [17/Aug/2023 15:40:38] "[36mGET /static/LM.png HTTP/1.1[0m" 304 -
+2023-08-17 15:40:38,321 INFO : 127.0.0.1 - - [17/Aug/2023 15:40:38] "[36mGET /static/green-tick.png HTTP/1.1[0m" 304 -
+2023-08-17 15:43:51,665 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 15:43:51,946 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 15:43:52,028 WARNING :  * Debugger is active!
+2023-08-17 15:43:52,031 INFO :  * Debugger PIN: 131-473-301
+2023-08-17 15:43:52,045 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 15:43:52,389 WARNING :  * Debugger is active!
+2023-08-17 15:43:52,392 INFO :  * Debugger PIN: 131-473-301
+2023-08-17 15:44:13,944 INFO : 127.0.0.1 - - [17/Aug/2023 15:44:13] "GET / HTTP/1.1" 200 -
+2023-08-17 15:44:14,027 INFO : 127.0.0.1 - - [17/Aug/2023 15:44:14] "[36mGET /static/LM.png HTTP/1.1[0m" 304 -
+2023-08-17 15:44:14,028 INFO : 127.0.0.1 - - [17/Aug/2023 15:44:14] "[36mGET /static/green-tick.png HTTP/1.1[0m" 304 -
+2023-08-17 15:46:29,626 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 15:46:29,767 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 15:46:29,999 WARNING :  * Debugger is active!
+2023-08-17 15:46:30,000 INFO :  * Debugger PIN: 131-473-301
+2023-08-17 15:46:30,384 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 15:46:30,828 WARNING :  * Debugger is active!
+2023-08-17 15:46:30,831 INFO :  * Debugger PIN: 131-473-301
+2023-08-17 15:46:31,881 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 15:46:32,057 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 15:46:32,224 WARNING :  * Debugger is active!
+2023-08-17 15:46:32,227 INFO :  * Debugger PIN: 131-473-301
+2023-08-17 15:46:32,379 WARNING :  * Debugger is active!
+2023-08-17 15:46:32,383 INFO :  * Debugger PIN: 131-473-301
+2023-08-17 15:46:32,484 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 15:46:34,283 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 15:46:34,438 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 15:46:34,600 WARNING :  * Debugger is active!
+2023-08-17 15:46:34,600 INFO :  * Debugger PIN: 131-473-301
+2023-08-17 15:46:34,741 WARNING :  * Debugger is active!
+2023-08-17 15:46:34,744 INFO :  * Debugger PIN: 131-473-301
+2023-08-17 15:46:40,754 INFO : 127.0.0.1 - - [17/Aug/2023 15:46:40] "GET / HTTP/1.1" 200 -
+2023-08-17 15:46:40,828 INFO : 127.0.0.1 - - [17/Aug/2023 15:46:40] "[36mGET /static/LM.png HTTP/1.1[0m" 304 -
+2023-08-17 15:46:40,829 INFO : 127.0.0.1 - - [17/Aug/2023 15:46:40] "[36mGET /static/green-tick.png HTTP/1.1[0m" 304 -
+2023-08-17 15:46:45,664 INFO : 127.0.0.1 - - [17/Aug/2023 15:46:45] "GET / HTTP/1.1" 200 -
+2023-08-17 15:46:45,688 INFO : 127.0.0.1 - - [17/Aug/2023 15:46:45] "[36mGET /static/LM.png HTTP/1.1[0m" 304 -
+2023-08-17 15:46:45,692 INFO : 127.0.0.1 - - [17/Aug/2023 15:46:45] "[36mGET /static/green-tick.png HTTP/1.1[0m" 304 -
+2023-08-17 15:46:54,510 INFO : 127.0.0.1 - - [17/Aug/2023 15:46:54] "[32mPOST /add-item HTTP/1.1[0m" 302 -
+2023-08-17 15:46:54,518 INFO : 127.0.0.1 - - [17/Aug/2023 15:46:54] "GET / HTTP/1.1" 200 -
+2023-08-17 15:46:54,544 INFO : 127.0.0.1 - - [17/Aug/2023 15:46:54] "[36mGET /static/LM.png HTTP/1.1[0m" 304 -
+2023-08-17 15:46:54,547 INFO : 127.0.0.1 - - [17/Aug/2023 15:46:54] "[36mGET /static/green-tick.png HTTP/1.1[0m" 304 -
+2023-08-17 15:47:01,300 INFO : 127.0.0.1 - - [17/Aug/2023 15:47:01] "[35m[1mPOST /upd-item HTTP/1.1[0m" 500 -
+2023-08-17 15:47:01,316 ERROR : Error on request:
+Traceback (most recent call last):
+  File "C:\Users\P10403567\AppData\Local\Programs\Python\Python311\Lib\site-packages\werkzeug\serving.py", line 364, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\P10403567\AppData\Local\Programs\Python\Python311\Lib\site-packages\werkzeug\serving.py", line 325, in execute
+    application_iter = app(environ, start_response)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\P10403567\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\P10403567\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\P10403567\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\P10403567\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\P10403567\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\P10403567\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\temp\devops\projex\DevOps-Course-Starter2\todo_app\app.py", line 39, in upd_todo_item
+    item_id = item['id']
+              ^^^^^^^^^^
+TypeError: 'NoneType' object is not subscriptable
+2023-08-17 15:47:44,564 INFO : 127.0.0.1 - - [17/Aug/2023 15:47:44] "GET / HTTP/1.1" 200 -
+2023-08-17 15:47:44,593 INFO : 127.0.0.1 - - [17/Aug/2023 15:47:44] "[36mGET /static/LM.png HTTP/1.1[0m" 304 -
+2023-08-17 15:47:44,597 INFO : 127.0.0.1 - - [17/Aug/2023 15:47:44] "[36mGET /static/green-tick.png HTTP/1.1[0m" 304 -
+2023-08-17 15:49:35,057 INFO : 127.0.0.1 - - [17/Aug/2023 15:49:35] "GET / HTTP/1.1" 200 -
+2023-08-17 15:49:35,078 INFO : 127.0.0.1 - - [17/Aug/2023 15:49:35] "[36mGET /static/LM.png HTTP/1.1[0m" 304 -
+2023-08-17 15:49:35,080 INFO : 127.0.0.1 - - [17/Aug/2023 15:49:35] "[36mGET /static/green-tick.png HTTP/1.1[0m" 304 -
+2023-08-17 15:49:58,431 INFO : 127.0.0.1 - - [17/Aug/2023 15:49:58] "GET / HTTP/1.1" 200 -
+2023-08-17 15:49:58,459 INFO : 127.0.0.1 - - [17/Aug/2023 15:49:58] "[36mGET /static/LM.png HTTP/1.1[0m" 304 -
+2023-08-17 15:49:58,463 INFO : 127.0.0.1 - - [17/Aug/2023 15:49:58] "[36mGET /static/green-tick.png HTTP/1.1[0m" 304 -
+2023-08-17 15:51:48,191 INFO : 127.0.0.1 - - [17/Aug/2023 15:51:48] "GET / HTTP/1.1" 200 -
+2023-08-17 15:51:48,217 INFO : 127.0.0.1 - - [17/Aug/2023 15:51:48] "[36mGET /static/LM.png HTTP/1.1[0m" 304 -
+2023-08-17 15:51:48,224 INFO : 127.0.0.1 - - [17/Aug/2023 15:51:48] "[36mGET /static/green-tick.png HTTP/1.1[0m" 304 -
+2023-08-17 15:51:49,004 INFO : 127.0.0.1 - - [17/Aug/2023 15:51:49] "GET / HTTP/1.1" 200 -
+2023-08-17 15:51:49,019 INFO : 127.0.0.1 - - [17/Aug/2023 15:51:49] "[36mGET /static/LM.png HTTP/1.1[0m" 304 -
+2023-08-17 15:51:49,025 INFO : 127.0.0.1 - - [17/Aug/2023 15:51:49] "[36mGET /static/green-tick.png HTTP/1.1[0m" 304 -
+2023-08-17 15:52:02,105 INFO : 127.0.0.1 - - [17/Aug/2023 15:52:02] "GET / HTTP/1.1" 200 -
+2023-08-17 15:52:02,127 INFO : 127.0.0.1 - - [17/Aug/2023 15:52:02] "[36mGET /static/LM.png HTTP/1.1[0m" 304 -
+2023-08-17 15:52:02,130 INFO : 127.0.0.1 - - [17/Aug/2023 15:52:02] "[36mGET /static/green-tick.png HTTP/1.1[0m" 304 -
+2023-08-17 15:52:02,959 INFO : 127.0.0.1 - - [17/Aug/2023 15:52:02] "GET / HTTP/1.1" 200 -
+2023-08-17 15:52:02,984 INFO : 127.0.0.1 - - [17/Aug/2023 15:52:02] "[36mGET /static/LM.png HTTP/1.1[0m" 304 -
+2023-08-17 15:52:02,990 INFO : 127.0.0.1 - - [17/Aug/2023 15:52:02] "[36mGET /static/green-tick.png HTTP/1.1[0m" 304 -
+2023-08-17 15:52:30,967 INFO : 127.0.0.1 - - [17/Aug/2023 15:52:30] "GET / HTTP/1.1" 200 -
+2023-08-17 15:52:30,992 INFO : 127.0.0.1 - - [17/Aug/2023 15:52:30] "[36mGET /static/LM.png HTTP/1.1[0m" 304 -
+2023-08-17 15:52:30,995 INFO : 127.0.0.1 - - [17/Aug/2023 15:52:30] "[36mGET /static/green-tick.png HTTP/1.1[0m" 304 -
+2023-08-17 15:52:40,599 INFO : 127.0.0.1 - - [17/Aug/2023 15:52:40] "GET / HTTP/1.1" 200 -
+2023-08-17 15:52:40,626 INFO : 127.0.0.1 - - [17/Aug/2023 15:52:40] "[36mGET /static/LM.png HTTP/1.1[0m" 304 -
+2023-08-17 15:52:40,627 INFO : 127.0.0.1 - - [17/Aug/2023 15:52:40] "[36mGET /static/green-tick.png HTTP/1.1[0m" 304 -
+2023-08-17 15:52:49,425 INFO : 127.0.0.1 - - [17/Aug/2023 15:52:49] "GET / HTTP/1.1" 200 -
+2023-08-17 15:52:49,449 INFO : 127.0.0.1 - - [17/Aug/2023 15:52:49] "[36mGET /static/LM.png HTTP/1.1[0m" 304 -
+2023-08-17 15:52:49,450 INFO : 127.0.0.1 - - [17/Aug/2023 15:52:49] "[36mGET /static/green-tick.png HTTP/1.1[0m" 304 -
+2023-08-17 15:55:03,258 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\data\\session_items.py', reloading
+2023-08-17 15:55:03,503 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\data\\session_items.py', reloading
+2023-08-17 15:55:03,706 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\data\\session_items.py', reloading
+2023-08-17 16:18:30,973 WARNING :  * Debugger is active!
+2023-08-17 16:18:30,976 INFO :  * Debugger PIN: 131-473-301
+2023-08-17 16:19:04,596 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\data\\session_items.py', reloading
+2023-08-17 16:19:04,630 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\data\\session_items.py', reloading
+2023-08-17 16:19:32,782 WARNING :  * Debugger is active!
+2023-08-17 16:19:32,798 INFO :  * Debugger PIN: 131-473-301
+2023-08-17 16:19:33,982 INFO : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-08-17 16:19:33,982 INFO : [33mPress CTRL+C to quit[0m
+2023-08-17 16:19:33,982 INFO :  * Restarting with stat
+2023-08-17 16:19:34,253 WARNING :  * Debugger is active!
+2023-08-17 16:19:34,253 INFO :  * Debugger PIN: 131-473-301
+2023-08-17 16:19:37,329 INFO : 127.0.0.1 - - [17/Aug/2023 16:19:37] "GET / HTTP/1.1" 200 -
+2023-08-17 16:19:37,411 INFO : 127.0.0.1 - - [17/Aug/2023 16:19:37] "[36mGET /static/green-tick.png HTTP/1.1[0m" 304 -
+2023-08-17 16:19:37,411 INFO : 127.0.0.1 - - [17/Aug/2023 16:19:37] "[36mGET /static/LM.png HTTP/1.1[0m" 304 -
+2023-08-17 16:20:17,085 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:20:17,104 INFO :  * Restarting with stat
+2023-08-17 16:20:17,116 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:20:17,392 WARNING :  * Debugger is active!
+2023-08-17 16:20:17,396 INFO :  * Debugger PIN: 131-473-301
+2023-08-17 16:20:17,482 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:20:17,766 WARNING :  * Debugger is active!
+2023-08-17 16:20:17,783 INFO :  * Debugger PIN: 131-473-301
+2023-08-17 16:20:24,872 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:20:24,909 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:20:25,224 WARNING :  * Debugger is active!
+2023-08-17 16:20:25,226 INFO :  * Debugger PIN: 131-473-301
+2023-08-17 16:20:25,566 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:20:25,610 INFO :  * Restarting with stat
+2023-08-17 16:20:25,883 WARNING :  * Debugger is active!
+2023-08-17 16:20:25,883 INFO :  * Debugger PIN: 131-473-301
+2023-08-17 16:20:27,945 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:20:27,976 INFO :  * Restarting with stat
+2023-08-17 16:20:28,249 WARNING :  * Debugger is active!
+2023-08-17 16:20:28,249 INFO :  * Debugger PIN: 131-473-301
+2023-08-17 16:20:28,282 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:20:28,499 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:20:28,597 WARNING :  * Debugger is active!
+2023-08-17 16:20:28,602 INFO :  * Debugger PIN: 131-473-301
+2023-08-17 16:20:30,305 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:20:30,330 INFO :  * Restarting with stat
+2023-08-17 16:20:30,609 WARNING :  * Debugger is active!
+2023-08-17 16:20:30,613 INFO :  * Debugger PIN: 131-473-301
+2023-08-17 16:20:30,671 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:20:30,933 WARNING :  * Debugger is active!
+2023-08-17 16:20:30,949 INFO :  * Debugger PIN: 131-473-301
+2023-08-17 16:20:33,667 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:20:33,706 INFO :  * Restarting with stat
+2023-08-17 16:20:33,982 WARNING :  * Debugger is active!
+2023-08-17 16:20:33,985 INFO :  * Debugger PIN: 131-473-301
+2023-08-17 16:20:34,021 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:20:34,273 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:20:34,325 WARNING :  * Debugger is active!
+2023-08-17 16:20:34,327 INFO :  * Debugger PIN: 131-473-301
+2023-08-17 16:20:36,389 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:20:36,683 WARNING :  * Debugger is active!
+2023-08-17 16:20:36,683 INFO :  * Debugger PIN: 131-473-301
+2023-08-17 16:20:36,762 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:20:37,056 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:20:37,082 INFO :  * Restarting with stat
+2023-08-17 16:20:37,357 WARNING :  * Debugger is active!
+2023-08-17 16:20:37,360 INFO :  * Debugger PIN: 131-473-301
+2023-08-17 16:20:50,603 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:20:50,655 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:20:50,689 INFO :  * Restarting with stat
+2023-08-17 16:20:50,911 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:20:50,995 WARNING :  * Debugger is active!
+2023-08-17 16:20:50,999 INFO :  * Debugger PIN: 131-473-301
+2023-08-17 16:20:51,224 WARNING :  * Debugger is active!
+2023-08-17 16:20:51,226 INFO :  * Debugger PIN: 131-473-301
+2023-08-17 16:20:54,066 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:20:54,082 INFO :  * Restarting with stat
+2023-08-17 16:20:54,133 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:20:54,300 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:20:54,412 WARNING :  * Debugger is active!
+2023-08-17 16:20:54,415 INFO :  * Debugger PIN: 131-473-301
+2023-08-17 16:20:54,681 WARNING :  * Debugger is active!
+2023-08-17 16:20:54,684 INFO :  * Debugger PIN: 131-473-301
+2023-08-17 16:20:55,724 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:20:56,016 WARNING :  * Debugger is active!
+2023-08-17 16:20:56,016 INFO :  * Debugger PIN: 131-473-301
+2023-08-17 16:20:56,466 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:20:56,499 INFO :  * Restarting with stat
+2023-08-17 16:20:56,793 WARNING :  * Debugger is active!
+2023-08-17 16:20:56,796 INFO :  * Debugger PIN: 131-473-301
+2023-08-17 16:21:09,028 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:21:09,057 INFO :  * Restarting with stat
+2023-08-17 16:21:09,239 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:21:09,276 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:21:09,410 WARNING :  * Debugger is active!
+2023-08-17 16:21:09,414 INFO :  * Debugger PIN: 131-473-301
+2023-08-17 16:21:09,654 WARNING :  * Debugger is active!
+2023-08-17 16:21:09,657 INFO :  * Debugger PIN: 131-473-301
+2023-08-17 16:21:11,471 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:21:11,502 INFO :  * Restarting with stat
+2023-08-17 16:21:11,721 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:21:11,812 WARNING :  * Debugger is active!
+2023-08-17 16:21:11,817 INFO :  * Debugger PIN: 131-473-301
+2023-08-17 16:21:12,062 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:21:12,062 WARNING :  * Debugger is active!
+2023-08-17 16:21:12,067 INFO :  * Debugger PIN: 131-473-301
+2023-08-17 16:21:16,682 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:21:16,927 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:21:16,957 INFO :  * Restarting with stat
+2023-08-17 16:21:17,172 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:21:17,325 WARNING :  * Debugger is active!
+2023-08-17 16:21:17,328 INFO :  * Debugger PIN: 131-473-301
+2023-08-17 16:21:17,527 WARNING :  * Debugger is active!
+2023-08-17 16:21:17,533 INFO :  * Debugger PIN: 131-473-301
+2023-08-17 16:21:22,380 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:21:22,449 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:21:22,489 INFO :  * Restarting with stat
+2023-08-17 16:21:22,638 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:21:22,804 WARNING :  * Debugger is active!
+2023-08-17 16:21:22,807 INFO :  * Debugger PIN: 131-473-301
+2023-08-17 16:21:22,966 WARNING :  * Debugger is active!
+2023-08-17 16:21:22,978 INFO :  * Debugger PIN: 131-473-301
+2023-08-17 16:21:39,169 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:21:39,205 INFO :  * Restarting with stat
+2023-08-17 16:21:39,238 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:21:39,362 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:21:39,550 WARNING :  * Debugger is active!
+2023-08-17 16:21:39,555 INFO :  * Debugger PIN: 131-473-301
+2023-08-17 16:21:39,602 WARNING :  * Debugger is active!
+2023-08-17 16:21:39,605 INFO :  * Debugger PIN: 131-473-301
+2023-08-17 16:21:44,666 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:21:44,699 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:21:44,700 INFO :  * Restarting with stat
+2023-08-17 16:21:45,181 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:21:48,110 INFO :  * Restarting with stat
+2023-08-17 16:21:48,410 WARNING :  * Debugger is active!
+2023-08-17 16:21:48,413 INFO :  * Debugger PIN: 131-473-301
+2023-08-17 16:21:48,428 WARNING :  * Debugger is active!
+2023-08-17 16:21:48,431 INFO :  * Debugger PIN: 131-473-301
+2023-08-17 16:21:52,695 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:21:53,525 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:21:53,540 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:21:53,607 INFO :  * Restarting with stat
+2023-08-17 16:21:53,912 WARNING :  * Debugger is active!
+2023-08-17 16:21:53,915 INFO :  * Debugger PIN: 131-473-301
+2023-08-17 16:21:53,934 WARNING :  * Debugger is active!
+2023-08-17 16:21:53,941 INFO :  * Debugger PIN: 131-473-301
+2023-08-17 16:21:54,966 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:21:54,991 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:21:55,036 INFO :  * Restarting with stat
+2023-08-17 16:21:55,307 WARNING :  * Debugger is active!
+2023-08-17 16:21:55,310 INFO :  * Debugger PIN: 131-473-301
+2023-08-17 16:21:55,330 WARNING :  * Debugger is active!
+2023-08-17 16:21:55,334 INFO :  * Debugger PIN: 131-473-301
+2023-08-17 16:21:57,366 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:21:57,382 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:21:57,430 INFO :  * Restarting with stat
+2023-08-17 16:21:57,555 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:21:57,693 WARNING :  * Debugger is active!
+2023-08-17 16:21:57,696 INFO :  * Debugger PIN: 131-473-301
+2023-08-17 16:21:57,729 WARNING :  * Debugger is active!
+2023-08-17 16:21:57,733 INFO :  * Debugger PIN: 131-473-301
+2023-08-17 16:22:02,807 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:22:02,863 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:22:02,895 INFO :  * Restarting with stat
+2023-08-17 16:22:03,141 WARNING :  * Debugger is active!
+2023-08-17 16:22:03,147 INFO :  * Debugger PIN: 131-473-301
+2023-08-17 16:22:03,208 WARNING :  * Debugger is active!
+2023-08-17 16:22:03,211 INFO :  * Debugger PIN: 131-473-301
+2023-08-17 16:22:03,308 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:22:05,731 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:22:06,220 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:22:06,276 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-08-17 16:22:06,314 INFO :  * Restarting with stat
+2023-08-17 16:22:06,551 WARNING :  * Debugger is active!
+2023-08-17 16:22:06,551 INFO :  * Debugger PIN: 131-473-301
+2023-08-17 16:22:06,615 WARNING :  * Debugger is active!
+2023-08-17 16:22:06,618 INFO :  * Debugger PIN: 131-473-301
+2023-08-17 16:22:44,933 INFO : 127.0.0.1 - - [17/Aug/2023 16:22:44] "GET / HTTP/1.1" 200 -
+2023-08-17 16:22:45,011 INFO : 127.0.0.1 - - [17/Aug/2023 16:22:45] "[36mGET /static/green-tick.png HTTP/1.1[0m" 304 -
+2023-08-17 16:22:45,012 INFO : 127.0.0.1 - - [17/Aug/2023 16:22:45] "[36mGET /static/LM.png HTTP/1.1[0m" 304 -
+2023-08-17 16:24:55,426 INFO : 127.0.0.1 - - [17/Aug/2023 16:24:55] "GET / HTTP/1.1" 200 -
+2023-08-17 16:24:55,448 INFO : 127.0.0.1 - - [17/Aug/2023 16:24:55] "[36mGET /static/LM.png HTTP/1.1[0m" 304 -
+2023-08-17 16:24:55,451 INFO : 127.0.0.1 - - [17/Aug/2023 16:24:55] "[36mGET /static/green-tick.png HTTP/1.1[0m" 304 -
+2023-08-17 16:24:58,507 INFO : 127.0.0.1 - - [17/Aug/2023 16:24:58] "[35m[1mPOST /upd-item HTTP/1.1[0m" 500 -
+2023-08-17 16:24:58,560 ERROR : Error on request:
+Traceback (most recent call last):
+  File "C:\Users\P10403567\AppData\Local\Programs\Python\Python311\Lib\site-packages\werkzeug\serving.py", line 364, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\P10403567\AppData\Local\Programs\Python\Python311\Lib\site-packages\werkzeug\serving.py", line 325, in execute
+    application_iter = app(environ, start_response)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\P10403567\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\P10403567\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\P10403567\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\P10403567\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\P10403567\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\P10403567\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\temp\devops\projex\DevOps-Course-Starter2\todo_app\app.py", line 40, in upd_todo_item
+    if debug>0: print (f'upd_title {upd_title}')
+                                    ^^^^^^^^^^^^
+NameError: name 'upd_title' is not defined
+2023-08-17 16:25:08,149 INFO : 127.0.0.1 - - [17/Aug/2023 16:25:08] "[35m[1mPOST /upd-item HTTP/1.1[0m" 500 -
+2023-08-17 16:25:08,152 ERROR : Error on request:
+Traceback (most recent call last):
+  File "C:\Users\P10403567\AppData\Local\Programs\Python\Python311\Lib\site-packages\werkzeug\serving.py", line 364, in run_wsgi
+    execute(self.server.app)
+  File "C:\Users\P10403567\AppData\Local\Programs\Python\Python311\Lib\site-packages\werkzeug\serving.py", line 325, in execute
+    application_iter = app(environ, start_response)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\P10403567\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 2213, in __call__
+    return self.wsgi_app(environ, start_response)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\P10403567\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 2193, in wsgi_app
+    response = self.handle_exception(e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\P10403567\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\P10403567\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\P10403567\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\P10403567\AppData\Local\Programs\Python\Python311\Lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\temp\devops\projex\DevOps-Course-Starter2\todo_app\app.py", line 40, in upd_todo_item
+    if debug>0: print (f'upd_title {upd_title}')
+                                    ^^^^^^^^^^^^
+NameError: name 'upd_title' is not defined
+2023-08-17 16:30:47,762 INFO : 127.0.0.1 - - [17/Aug/2023 16:30:47] "GET / HTTP/1.1" 200 -
+2023-08-17 16:30:47,787 INFO : 127.0.0.1 - - [17/Aug/2023 16:30:47] "[36mGET /static/LM.png HTTP/1.1[0m" 304 -
+2023-08-17 16:30:47,791 INFO : 127.0.0.1 - - [17/Aug/2023 16:30:47] "[36mGET /static/green-tick.png HTTP/1.1[0m" 304 -
+2023-08-17 16:30:48,976 INFO : 127.0.0.1 - - [17/Aug/2023 16:30:48] "GET / HTTP/1.1" 200 -
+2023-08-17 16:30:48,991 INFO : 127.0.0.1 - - [17/Aug/2023 16:30:48] "[36mGET /static/LM.png HTTP/1.1[0m" 304 -
+2023-08-17 16:30:48,993 INFO : 127.0.0.1 - - [17/Aug/2023 16:30:48] "[36mGET /static/green-tick.png HTTP/1.1[0m" 304 -
+2023-08-17 16:30:49,129 INFO : 127.0.0.1 - - [17/Aug/2023 16:30:49] "GET / HTTP/1.1" 200 -
+2023-08-17 16:30:49,148 INFO : 127.0.0.1 - - [17/Aug/2023 16:30:49] "[36mGET /static/LM.png HTTP/1.1[0m" 304 -
+2023-08-17 16:30:49,153 INFO : 127.0.0.1 - - [17/Aug/2023 16:30:49] "[36mGET /static/green-tick.png HTTP/1.1[0m" 304 -
+2023-08-17 16:30:49,346 INFO : 127.0.0.1 - - [17/Aug/2023 16:30:49] "GET / HTTP/1.1" 200 -
+2023-08-17 16:30:49,363 INFO : 127.0.0.1 - - [17/Aug/2023 16:30:49] "[36mGET /static/LM.png HTTP/1.1[0m" 304 -
+2023-08-17 16:30:49,365 INFO : 127.0.0.1 - - [17/Aug/2023 16:30:49] "[36mGET /static/green-tick.png HTTP/1.1[0m" 304 -
+2023-08-17 16:30:49,539 INFO : 127.0.0.1 - - [17/Aug/2023 16:30:49] "GET / HTTP/1.1" 200 -
+2023-08-17 16:30:49,557 INFO : 127.0.0.1 - - [17/Aug/2023 16:30:49] "[36mGET /static/LM.png HTTP/1.1[0m" 304 -
+2023-08-17 16:30:49,559 INFO : 127.0.0.1 - - [17/Aug/2023 16:30:49] "[36mGET /static/green-tick.png HTTP/1.1[0m" 304 -
+2023-08-17 17:42:16,956 INFO : 127.0.0.1 - - [17/Aug/2023 17:42:16] "GET / HTTP/1.1" 200 -
+2023-08-17 17:42:16,979 INFO : 127.0.0.1 - - [17/Aug/2023 17:42:16] "[36mGET /static/LM.png HTTP/1.1[0m" 304 -
+2023-08-17 17:42:16,983 INFO : 127.0.0.1 - - [17/Aug/2023 17:42:16] "[36mGET /static/green-tick.png HTTP/1.1[0m" 304 -
+2023-08-17 17:42:44,695 INFO : 127.0.0.1 - - [17/Aug/2023 17:42:44] "GET / HTTP/1.1" 200 -
+2023-08-17 17:42:44,717 INFO : 127.0.0.1 - - [17/Aug/2023 17:42:44] "[36mGET /static/LM.png HTTP/1.1[0m" 304 -
+2023-08-17 17:42:44,722 INFO : 127.0.0.1 - - [17/Aug/2023 17:42:44] "[36mGET /static/green-tick.png HTTP/1.1[0m" 304 -
+2023-08-17 17:43:18,220 INFO : 127.0.0.1 - - [17/Aug/2023 17:43:18] "GET / HTTP/1.1" 200 -
+2023-08-17 17:43:18,243 INFO : 127.0.0.1 - - [17/Aug/2023 17:43:18] "[36mGET /static/LM.png HTTP/1.1[0m" 304 -
+2023-08-17 17:43:18,246 INFO : 127.0.0.1 - - [17/Aug/2023 17:43:18] "[36mGET /static/green-tick.png HTTP/1.1[0m" 304 -
+2023-08-17 17:43:27,031 INFO : 127.0.0.1 - - [17/Aug/2023 17:43:27] "GET / HTTP/1.1" 200 -
+2023-08-17 17:43:27,055 INFO : 127.0.0.1 - - [17/Aug/2023 17:43:27] "[36mGET /static/LM.png HTTP/1.1[0m" 304 -
+2023-08-17 17:43:27,058 INFO : 127.0.0.1 - - [17/Aug/2023 17:43:27] "[36mGET /static/green-tick.png HTTP/1.1[0m" 304 -
+2023-08-17 17:43:36,175 INFO : 127.0.0.1 - - [17/Aug/2023 17:43:36] "GET / HTTP/1.1" 200 -
+2023-08-17 17:43:36,191 INFO : 127.0.0.1 - - [17/Aug/2023 17:43:36] "[36mGET /static/LM.png HTTP/1.1[0m" 304 -
+2023-08-17 17:43:36,193 INFO : 127.0.0.1 - - [17/Aug/2023 17:43:36] "[36mGET /static/green-tick.png HTTP/1.1[0m" 304 -
+2023-08-17 17:43:36,877 INFO : 127.0.0.1 - - [17/Aug/2023 17:43:36] "GET / HTTP/1.1" 200 -
+2023-08-17 17:43:36,898 INFO : 127.0.0.1 - - [17/Aug/2023 17:43:36] "[36mGET /static/LM.png HTTP/1.1[0m" 304 -
+2023-08-17 17:43:36,902 INFO : 127.0.0.1 - - [17/Aug/2023 17:43:36] "[36mGET /static/green-tick.png HTTP/1.1[0m" 304 -
