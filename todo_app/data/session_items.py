@@ -52,15 +52,14 @@ def add_item(title):
 
     # Determine the ID for the item based on that of the previously added item
     id = items[-1]['id'] + 1 if items else 0
-
+    
     item = { 'id': id, 'title': title, 'status': 'Todo' }
-
+    print (f'item {item}')
     # Add the item to the list
     items.append(item)
     session['items'] = items
 
     return item
-
 
 def save_item(item):
     """
@@ -69,18 +68,32 @@ def save_item(item):
     Args:
         item: The item to save.
     """
+    print (f'item {item}')
     existing_items = get_items()
     updated_items = [item if item['id'] == existing_item['id'] else existing_item for existing_item in existing_items]
-
+    #updated_items = [item if item['title'] == existing_item['title'] else existing_item for existing_item in existing_items]
     session['items'] = updated_items
-
     return item
 
-def mark_item_as_complete(item):
-    session[item] = item.status = 'Done'
+def delete_item(id):
+    """
+    Deleted and existing item in the sessions.
+    Args:
+        item: The item to delete
+    """
+    items = get_items()
+    item = get_item(id)
+    print (f'item {item}')
+    items.remove(item)
+    session['items'] = items
 
+def mark_item_as_complete(item):
+    session[item] = item['status'] = 'Done'
 
 def get_item_title(item):
-    return item.title
+    return item['title']
 
-
+def get_item_id_by_title(title):
+    items = get_items()
+    return next((item['id'] for item in items if item['title'] == title), None)
+    #return item.id

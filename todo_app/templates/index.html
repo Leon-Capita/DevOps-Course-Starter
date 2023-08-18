@@ -16,64 +16,65 @@
         <input type="text" name="title" id="title" required>
       </div>
   </div>  
-  <br><br>
-  </form>
 
   <div class="row">
     <div class="col-md-12">
       <h2>Items</h2>
       <br>
-      <h5>Items Todo</h5>
+      <h5>Todo</h5>
         <ul class="list-group mb-4">
         {% for item in view_model.todo_items %}
           {{item.title}} <br>
         {% endfor %}
         </ul>
-      <h5>Items Doin</h5>
+      <h5>Doin</h5>
         <ul class="list-group mb-4">
         {% for item in view_model.doin_items %}
           {{item.title}} <br>
         {% endfor %}
         </ul>
-      <h5>Items Done</h5>
+      <h5>Done</h5>
         <ul class="list-group mb-4">
         {% for item in view_model.done_items %}
           {{item.title}} <br>
         {% endfor %}
         </ul>
    </div>
+   <br><br>
+  </form>
 
-
-   <br>
-   <h5>Update Item</h5>
-   <br>
-   <div class="row">
+  <div class="row">
     <form action="/upd-item" method="POST">
       <br>
+         <br>
+   <h5>Select Item to action</h5>
+   <br>
+
       <label for="item">Item</label>
-      <select name="items" id="item">
-        <optgroup label="Todo items">
+      <select name="selected_item" id="item">
+        <optgroup label="Todo">
           {% for item in view_model.todo_items %}
-          <option value={{item.title}}>{{item.title}}</option>
+          <option value="{{item.title}}">{{item.title}}</option>
           {% endfor %}
         </optgroup>
-        <optgroup label="Doin items">
+        <optgroup label="Doin">
           {% for item in view_model.doin_items %}
-          <option value={{item.title}}>{{item.title}}</option>
+          <option value="{{item.title}}">{{item.title}}</option>
           {% endfor %}
         </optgroup>
-        <optgroup label="Done items">
+        <optgroup label="Done">
           {% for item in view_model.done_items %}
-          <option value={{item.title}}>{{item.title}}</option>
+          <option value="{{item.title}}">{{item.title}}</option>
           {% endfor %}
         </optgroup>
       </select>
-      <!--<input type="submit" value="Select" />-->
-
-
+      <input type="submit" formaction="/del-item" value="Delete todo item">
+            <!--<input type="submit" value="Select" />-->
 
       <div class="form">
-      <br>
+
+      </div>       <br><br>
+       <h5>Update Item</h5>
       <br>
       <label for="title">Updated title: </label>
         <input type="text" name="upd_title" id="title">
@@ -81,20 +82,20 @@
         <label for="title">Updated status: </label>
         <div class="btn-group btn-group-toggle" data-toggle="buttons">
           <label class="btn btn-secondary active">
-            <input type="radio" name="options" id="option1" autocomplete="off" value="Todo" checked> Todo
+            <input type="radio" name="status" id="option1" autocomplete="off" value="Todo" checked> Todo
           </label>
           <label class="btn btn-secondary">
-            <input type="radio" name="options" id="option2" autocomplete="off" value="Doin" > Doin
+            <input type="radio" name="status" id="option2" autocomplete="off" value="Doin" > Doin
           </label>
           <label class="btn btn-secondary">
-            <input type="radio" name="options" id="option3" autocomplete="off" value="Done" > Done
+            <input type="radio" name="status" id="option3" autocomplete="off" value="Done" > Done
           </label>
           <br>
        </div>
         
 
       <br>
-      <input type="submit" value="Update todo item">
+      <input type="submit" formaction="/upd-item" value="Update todo item">
     </form>
   </div>
     
