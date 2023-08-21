@@ -77,19 +77,22 @@
        <h5>Update Item</h5>
       <br>
 
+      <label for="title">Updated title: </label>
+        <input type="text" name="upd_title" id="upd_title">
+        <br>
+        
       <script>
         const dropDown = document.getElementById('item');
         const textBox = document.getElementById('upd_title');
         dropDown.addEventListener('change', (event) => {
           const selectedItem = event.target.value;
           textBox.value = selectedItem;
+          textBox.select();
         });
       </script>
 
 
-      <label for="title">Updated title: </label>
-        <input type="text" name="upd_title" id="upd_title">
-        <br>
+
         <label for="title">Updated status: </label>
         <div class="btn-group btn-group-toggle" data-toggle="buttons">
           <label class="btn btn-secondary active">
