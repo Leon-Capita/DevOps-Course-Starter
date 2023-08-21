@@ -91,14 +91,14 @@ def delete_item(id):
     items.remove(item)
     session['items'] = items
 
-def mark_item_as_complete(item):
-    session[item] = item['status'] = 'Done'
+# def mark_item_as_complete(item):
+#     session[item] = item['status'] = 'Done'
 
-def get_item_title(item):
-    return item['title']
+# def get_item_title(item):
+#     return item['title']
 
-def get_item_status(item):
-    return item['status']
+# def get_item_status(item):
+#     return item['status']
 
 def get_item_id_by_title(title):
     items = get_items()

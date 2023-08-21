@@ -1,9 +1,10 @@
 from flask import Flask, request, render_template, redirect
 from todo_app.ViewModelClass import ViewModel
 from todo_app.flask_config import Config
-from todo_app.data.session_items import get_items,delete_item, get_item, add_item, save_item, get_item_id_by_title, get_item_status, get_item_by_title
+from todo_app.data.session_items import get_items,delete_item, get_item, add_item, save_item, get_item_id_by_title, get_item_by_title#, get_item_status
 #from logging.config import logging
 import logging 
+###Would like an undo feature - keep details of previous action and be able to click undo 
 
 debug=2
 if debug>0: print (f'DEBUG ON - level {debug}')
