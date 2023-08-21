@@ -35,6 +35,12 @@ def del_trello_card(id):
     response = requests.request("DELETE", url, params=query )
     print(json.dumps(json.loads(response.text), sort_keys=True, indent=4, separators=(",", ": ")))
 
+def upd_trello_card(id, name, idList):
+    url = "https://api.trello.com/1/cards/"+id
+    headers = { "Accept": "application/json" }
+    query = { 'key': TRELLO_APIKEY, 'token': TRELLO_TOKEN, "name":name, "idList":idList }
+    response = requests.request( "PUT", url, headers=headers, params=query)
+
 def get_trello_card_id_by_name(name):
     cards=[]
     cards = get_trello_cards()
@@ -42,4 +48,13 @@ def get_trello_card_id_by_name(name):
         if card['name'] == name:
             id = card['id']
     return id
+
+def get_trello_card_by_name(name):
+    cards=[]
+    cards = get_trello_cards()
+    for card in cards:
+        if card['name'] == name:
+            card = card
+    return card
+
 
