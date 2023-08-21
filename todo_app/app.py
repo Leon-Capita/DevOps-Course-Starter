@@ -1,7 +1,7 @@
 from flask import Flask, request, render_template, redirect
 from todo_app.ViewModelClass import ViewModel
 from todo_app.flask_config import Config
-from todo_app.data.session_items import get_items,delete_item, get_item, add_item, save_item,get_item_id_by_title#, get_item_by_title
+from todo_app.data.session_items import get_items,delete_item, get_item, add_item, save_item, get_item_id_by_title, get_item_status, get_item_by_title
 #from logging.config import logging
 import logging 
 
@@ -28,18 +28,6 @@ def add_todo_item():
     logging.info(f'item_title {item_title}')
     return redirect('/')
 
-@app.route('/upd-item', methods = ["POST"])
-def upd_todo_item():
-    exis_item_title = request.form.get("selected_item")
-    item_status = request.form.get("status")
-    item_title = request.form.get("upd_title")
-    item_id = get_item_id_by_title(exis_item_title)
-    item = { 'id': item_id, 'status': item_status, 'title': item_title }
-    if debug>0: print (f'item {item}')
-    logging.info(f'item {item}')
-    save_item(item)
-    return redirect('/')
-
 @app.route('/del-item', methods = ["POST"])
 def del_todo_item():
     exis_item_title = request.form.get("selected_item")
@@ -47,4 +35,23 @@ def del_todo_item():
     delete_item(id)
     if debug>0: print (f'id {id}')
     logging.info(f'id {id}')
+    return redirect('/')
+
+@app.route('/upd-item', methods = ["POST"])
+def upd_todo_item():
+    exis_item_title = request.form.get("selected_item")
+    exis_item = get_item_by_title(exis_item_title)
+    exis_item_status = exis_item['status']
+
+    item_status = request.form.get("status")
+    item_title = request.form.get("upd_title")
+    item_id = get_item_id_by_title(exis_item_title)
+    if item_title == '':
+        item = { 'id': item_id, 'status': item_status, 'title': exis_item_title }
+    else:
+        item = { 'id': item_id, 'status': item_status, 'title': item_title }
+    
+    if debug>0: print (f'item {item}')
+    logging.info(f'item {item}')
+    save_item(item)
     return redirect('/')

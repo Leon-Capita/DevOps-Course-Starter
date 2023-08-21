@@ -9,6 +9,12 @@ class ViewModel:
     def items(self):
         return self._items
     
+    # @property
+    # def get_item_status(self, title):
+    #     theitem = [item for item in self._items if item['title'] == title ]
+    #     item_status = theitem['status']
+    #     return item_status
+    
     @property
     def done_items(self):
         done_items_list = [item for item in self._items if item['status'] == 'Done' ]

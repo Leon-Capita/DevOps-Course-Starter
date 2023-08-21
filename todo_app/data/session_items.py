@@ -75,6 +75,10 @@ def save_item(item):
     session['items'] = updated_items
     return item
 
+def get_item_by_title(title):
+    items = get_items()
+    return next((item for item in items if item['title'] == title), None)
+
 def delete_item(id):
     """
     Deleted and existing item in the sessions.
@@ -92,6 +96,9 @@ def mark_item_as_complete(item):
 
 def get_item_title(item):
     return item['title']
+
+def get_item_status(item):
+    return item['status']
 
 def get_item_id_by_title(title):
     items = get_items()
