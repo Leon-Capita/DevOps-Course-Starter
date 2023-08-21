@@ -24,19 +24,19 @@
       <h5>Todo</h5>
         <ul class="list-group mb-4">
         {% for item in view_model.todo_items %}
-          {{item.title}} <br>
+          {{item.name}} <br> <!--was item.title-->
         {% endfor %}
         </ul>
       <h5>Doin</h5>
         <ul class="list-group mb-4">
         {% for item in view_model.doin_items %}
-          {{item.title}} <br>
+          {{item.name}} <br>
         {% endfor %}
         </ul>
       <h5>Done</h5>
         <ul class="list-group mb-4">
         {% for item in view_model.done_items %}
-          {{item.title}} <br>
+          {{item.name}} <br>
         {% endfor %}
         </ul>
    </div>
@@ -54,17 +54,17 @@
       <select name="selected_item" id="item">
         <optgroup label="Todo">
           {% for item in view_model.todo_items %}
-          <option value="{{item.title}}">{{item.title}}</option>
+          <option value="{{item.name}}">{{item.name}}</option>  <!--was item.title-->
           {% endfor %}
         </optgroup>
         <optgroup label="Doin">
           {% for item in view_model.doin_items %}
-          <option value="{{item.title}}">{{item.title}}</option>
+          <option value="{{item.name}}">{{item.name}}</option>
           {% endfor %}
         </optgroup>
         <optgroup label="Done">
           {% for item in view_model.done_items %}
-          <option value="{{item.title}}">{{item.title}}</option>
+          <option value="{{item.name}}">{{item.name}}</option>
           {% endfor %}
         </optgroup>
       </select>
@@ -96,13 +96,13 @@
         <label for="title">Updated status: </label>
         <div class="btn-group btn-group-toggle" data-toggle="buttons">
           <label class="btn btn-secondary active">
-            <input type="radio" name="status" id="option1" autocomplete="off" value="Todo" checked> Todo
+            <input type="radio" name="status" id="option1" autocomplete="off" value="64ae6f476f946f8c451a5cb9" checked> Todo
           </label>
           <label class="btn btn-secondary">
-            <input type="radio" name="status" id="option2" autocomplete="off" value="Doin" > Doin
+            <input type="radio" name="status" id="option2" autocomplete="off" value="64ae6f476f946f8c451a5cba" > Doin
           </label>
           <label class="btn btn-secondary">
-            <input type="radio" name="status" id="option3" autocomplete="off" value="Done" > Done
+            <input type="radio" name="status" id="option3" autocomplete="off" value="64ae6f476f946f8c451a5cbb" > Done
           </label>
           <br>
        </div>

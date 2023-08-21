@@ -102,5 +102,6 @@ def delete_item(id):
 
 def get_item_id_by_title(title):
     items = get_items()
-    return next((item['id'] for item in items if item['title'] == title), None)
+    #return next((item['id'] for item in items if item['title'] == title), None)
+    return next((item['id'] for item in items if item['name'] == title), None)
     #return item.id
