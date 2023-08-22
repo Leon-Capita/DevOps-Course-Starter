@@ -118,3 +118,4 @@ env/
 
 ### Configuration files ###
 .env
+data/config.py
