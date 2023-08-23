@@ -4,6 +4,15 @@ class Item:
         self.id = id
         self.name = name
         self.idList = idList
+    
+    def __repr__(self): # How the cards appear in your list
+        #return 'id: ' + str(self.id) +' name: '+ str(self.name) +' idList:'+ str(self.idList)
+        return str(self.id) + str(self.name) + str(self.idList)
+        #return str(self.id, self.name, self.idList)
+        #return str(self)
+    
+    # def __repr__(self): # How the cards appear in your list
+        # return str(self.figure) + str(self.colour)
 
     # @classmethod
     # def from_trello_card(cls, card, list):

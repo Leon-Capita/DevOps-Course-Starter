@@ -29,7 +29,7 @@ def index():
         #debug(context, doing, 'item',item)
         #items.append(Item(id=item_id, name=item_name, status=item_list))
         items.append(Item(item['id'], item['name'], item['idList']))
-        #debug(context, doing, 'items',items)
+        debug(context, doing, 'items',items)
     item_view_model = ViewModel(items)
     #item_view_model = items
     return render_template('index.html', view_model=item_view_model)

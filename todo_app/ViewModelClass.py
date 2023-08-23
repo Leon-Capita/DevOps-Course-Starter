@@ -20,11 +20,14 @@ class ViewModel:
 
     # def __getattribute__(self, __name: str) -> Any:
     #     pass
+
     def __getitem__(self, key): # this allows getting an element (overrided method)
         return self._items[key]
     
     @property
     def done_items(self):
+        context = 'ViewModelClass.py done_items'
+        doing = 'done_items'
         #done_items_list = [item for item in self._items if item['status'] == 'Done' ]
         #done_items_list = [item for item in self._items if item['idList'] == '64ae6f476f946f8c451a5cbb' ]
         done_items_list = [item for item in self._items if item.idList == '64ae6f476f946f8c451a5cbb' ]
@@ -32,6 +35,8 @@ class ViewModel:
     
     @property
     def doin_items(self):
+        context = 'ViewModelClass.py doin_items'
+        doing = 'doin_items'
         #doin_items_list = [item for item in self._items if item['status'] == 'Doin' ]
         #doin_items_list = [item for item in self._items if item['idList'] == '64ae6f476f946f8c451a5cba' ]
         doin_items_list = [item for item in self._items if item.idList == '64ae6f476f946f8c451a5cba' ]
@@ -52,3 +57,7 @@ class ViewModel:
         #debug(context, doing, 'self._items',self._items)
         todo_items_list = [item for item in self._items if item.idList == '64ae6f476f946f8c451a5cb9' ]
         return todo_items_list   
+    
+
+
+    
