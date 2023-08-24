@@ -2,7 +2,7 @@
 {% block title %}To-Do App{% endblock %}
 {% block content %}
   <div class="jumbotron jumbotron-fluid">
-    <h1 class="display-4">To-Do App</h1>
+    <h3 class="display-4">To-Do App</h3>
     <p class="lead">Leon's to-do app 'Today, Ta-Da!'.</p>
     <input type="button" onclick="alert('v1.1 beta')" value="ABOUT">
   </div>
@@ -46,10 +46,9 @@
   <div class="row">
     <form action="/upd-item" method="POST">
       <br>
-         <br>
+      <br>
    <h5>Select Item to action</h5>
    <br>
-
       <label for="item">Item</label>
       <select name="selected_item" id="item">
         <optgroup label="Todo">
@@ -70,30 +69,24 @@
       </select>
       <input type="submit" formaction="/del-item" value="Delete todo item">
             <!--<input type="submit" value="Select" />-->
-
-      <div class="form">
-
-      </div>       <br><br>
-       <h5>Update Item</h5>
       <br>
-
+      <br>
+        <h5>Update Item</h5>
+      <br>
       <label for="title">Updated title: </label>
         <input type="text" name="upd_title" id="upd_title">
         <br>
-        
-      <script>
-        const dropDown = document.getElementById('item');
-        const textBox = document.getElementById('upd_title');
-        dropDown.addEventListener('change', (event) => {
-          const selectedItem = event.target.value;
-          textBox.value = selectedItem;
-          textBox.select();
-        });
-      </script>
+        <script>
+          const dropDown = document.getElementById('item');
+          const textBox = document.getElementById('upd_title');
+          dropDown.addEventListener('change', (event) => {
+            const selectedItem = event.target.value;
+            textBox.value = selectedItem;
+            textBox.select();
+          });
+        </script>
 
-
-
-        <label for="title">Updated status: </label>
+      <label for="title">Updated status: </label>
         <div class="btn-group btn-group-toggle" data-toggle="buttons">
           <label class="btn btn-secondary active">
             <input type="radio" name="status" id="option1" autocomplete="off" value="64ae6f476f946f8c451a5cb9" checked> Todo
@@ -108,10 +101,6 @@
        </div>
       <br>
       <input type="submit" formaction="/upd-item" value="Update todo item">
-
-
-
     </form>
-  </div>
-    
+  </div> 
 {% endblock %}
