@@ -4,9 +4,8 @@ from todo_app.flask_config import Config
 #from todo_app.data.session_items import get_items,delete_item, get_item, add_item, save_item, get_item_id_by_title, get_item_by_title#, get_item_status
 from todo_app.data.trello import get_trello_cards, add_trello_card, del_trello_card, get_trello_card_id_by_name, get_trello_card_by_name, upd_trello_card
 from todo_app.ItemClass import Item
-from todo_app.debug import debug
+from todo_app.debugger import writelog
 
-###Move debug logging out and simplify
 ###Would like an undo feature - keep details of previous action and be able to click undo 
 ###List of credits to tech used, eg flask, trello etc
 
@@ -14,6 +13,7 @@ def test_func():
     pass
 
 def create_app(debug=True):
+#def create_app():
     app = Flask(__name__)
     app.config.from_object(Config())
 
@@ -24,15 +24,15 @@ def create_app(debug=True):
         #items = get_items()
         #items = get_trello_cards()
         trello_items = get_trello_cards()
-        #debug(context, doing, 'trello_items',trello_items)
+        writelog(context, doing, 'trello_items',trello_items)
         items = []
         doing = 'building items'
-        #debug(context, doing, 'items',items)
+        writelog(context, doing, 'items',items)
         for item in trello_items:
-            #debug(context, doing, 'item',item)
+            #writelog(context, doing, 'item',item)
             #items.append(Item(id=item_id, name=item_name, status=item_list))
             items.append(Item(item['id'], item['name'], item['idList']))
-            #debug(context, doing, 'items',items)
+            writelog(context, doing, 'items',items)
         item_view_model = ViewModel(items)
         #item_view_model = items
         return render_template('index.html', view_model=item_view_model)
@@ -45,7 +45,7 @@ def create_app(debug=True):
         add_trello_card(item_title)
         context = 'app.py add-item route'
         doing = 'add_trello_card'
-        debug(context, doing, 'item_title',item_title)
+        writelog(context, doing, 'item_title',item_title)
         return redirect('/')
 
     @app.route('/del-item', methods = ["POST"])
@@ -57,7 +57,7 @@ def create_app(debug=True):
         del_trello_card(id)
         context = 'app.py del-item route'
         doing = 'del_trello_card'
-        debug(context, doing, 'id',id)
+        writelog(context, doing, 'id',id)
         return redirect('/')
 
     @app.route('/upd-item', methods = ["POST"])
@@ -81,7 +81,7 @@ def create_app(debug=True):
         
         context = 'app.py upd-item route'
         doing = 'upd_trello_card'
-        debug(context, doing, 'item',item)
+        writelog(context, doing, 'item',item)
         #save_item(item)
         upd_trello_card(item_id, item_title, item_status)
         return redirect('/')

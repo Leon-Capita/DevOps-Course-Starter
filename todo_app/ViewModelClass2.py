@@ -1,5 +1,5 @@
 from todo_app.ItemClass import Item
-from todo_app.debug import debug
+from todo_app.debugger import writelog
 
 class ViewModel:
     def __init__(self, todo_items: list[Item], doin_items: list[Item], done_items: list[Item]):

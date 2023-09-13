@@ -1,23 +1,23 @@
 from todo_app.data.config import TRELLO_BOARD_ID, TRELLO_APIKEY, TRELLO_TOKEN, TRELLO_TODO_ID, TRELLO_DOIN_ID, TRELLO_DONE_ID
 import requests
 import json
-debug=2
+debuglevel=2
 
 def get_trello_cards():
-    if debug>1:print('=====================get_trello_lists')
+    if debuglevel>1:print('=====================get_trello_lists')
     url = "https://api.trello.com/1/boards/"+TRELLO_BOARD_ID+"/lists" #fields=all
     #url = "https://api.trello.com/1/boards/"+TRELLO_BOARD_ID+"/lists?fields=id,name,shortUrl" #fields=all
-    if debug>1:print (url)
+    if debuglevel>1:print (url)
     headers = { "Accept": "application/json" }
     query = { 'key': TRELLO_APIKEY,'token': TRELLO_TOKEN, "cards":"open", "card_fields":"name,idList" }
     response = requests.request("GET", url, headers=headers, params=query )
-    if debug>1:print(response.json())
+    if debuglevel>1:print(response.json())
     resp = response.json()
 
     cards = []
     for list in resp:
         for card in list['cards']:
-            if debug>0:print(f"card {card}")
+            if debuglevel>0:print(f"card {card}")
             #card['listname']=list['name']
             cards.append(card)
     return cards

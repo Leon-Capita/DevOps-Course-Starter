@@ -4,7 +4,7 @@ import requests
 from todo_app.app import create_app, test_func
 from dotenv import load_dotenv, find_dotenv
 from todo_app.data.config import TRELLO_BOARD_ID
-from todo_app.debug import debug
+from todo_app.debugger import writelog
 
 # file_path = find_dotenv('.env.test')
 # load_dotenv(file_path, override=True)
@@ -17,13 +17,13 @@ def client():
         # Use our test integration config instead of the 'real' version
         file_path = find_dotenv('.env.test')
         #file_path = find_dotenv('.test')
-        debug(context, doing, 'file_path', file_path)
+        writelog(context, doing, 'file_path', file_path)
         load_dotenv(file_path, override=True)
 
         # Create the new app.
         test_app = create_app()
         #test_app = current_app.create_app()
-        debug(context, doing, 'test_app', test_app)
+        writelog(context, doing, 'test_app', test_app)
 
         # Use the app to create a test_client that can be used in our tests.
         with test_app.test_client() as client: 

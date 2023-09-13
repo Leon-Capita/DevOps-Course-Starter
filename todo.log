@@ -15702,3 +15702,767 @@ DEBUG WHERE:app.py index route
 2023-08-24 16:15:59,066 INFO : DEBUG ON - level 2
 2023-08-25 14:30:42,807 INFO : DEBUG ON - level 2
 2023-08-25 14:34:47,882 INFO : DEBUG ON - level 2
+2023-09-13 13:24:37,418 INFO : DEBUG ON - level 2
+2023-09-13 13:24:37,531 INFO : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-13 13:24:37,531 INFO : [33mPress CTRL+C to quit[0m
+2023-09-13 13:24:37,533 INFO :  * Restarting with stat
+2023-09-13 13:24:37,803 INFO : DEBUG ON - level 2
+2023-09-13 13:24:37,879 WARNING :  * Debugger is active!
+2023-09-13 13:24:37,882 INFO :  * Debugger PIN: 131-473-301
+2023-09-13 13:24:58,375 INFO : DEBUG ON - level 2
+2023-09-13 13:24:58,456 INFO : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-13 13:24:58,456 INFO : [33mPress CTRL+C to quit[0m
+2023-09-13 13:24:58,457 INFO :  * Restarting with stat
+2023-09-13 13:24:58,738 INFO : DEBUG ON - level 2
+2023-09-13 13:24:58,815 WARNING :  * Debugger is active!
+2023-09-13 13:24:58,818 INFO :  * Debugger PIN: 131-473-301
+2023-09-13 13:25:06,215 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2023-09-13 13:25:06,662 DEBUG : https://api.trello.com:443 "GET /1/boards/64ae6f476f946f8c451a5cb2/lists?key=7d069c46c188afd7a7eaeb18851b9fac&token=ATTAcff8cd91ef9d8108a296d4954de006c36a5f27507477246e8cd87d76edbdf881F66B1476&cards=open&card_fields=name%2CidList HTTP/1.1" 200 1355
+2023-09-13 13:25:06,702 INFO : 127.0.0.1 - - [13/Sep/2023 13:25:06] "GET / HTTP/1.1" 200 -
+2023-09-13 13:25:06,795 INFO : 127.0.0.1 - - [13/Sep/2023 13:25:06] "GET /static/green-tick.png HTTP/1.1" 200 -
+2023-09-13 13:25:06,795 INFO : 127.0.0.1 - - [13/Sep/2023 13:25:06] "GET /static/LM.png HTTP/1.1" 200 -
+2023-09-13 13:25:07,091 INFO : 127.0.0.1 - - [13/Sep/2023 13:25:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-09-13 13:25:22,354 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2023-09-13 13:25:22,742 DEBUG : https://api.trello.com:443 "GET /1/boards/64ae6f476f946f8c451a5cb2/lists?key=7d069c46c188afd7a7eaeb18851b9fac&token=ATTAcff8cd91ef9d8108a296d4954de006c36a5f27507477246e8cd87d76edbdf881F66B1476&cards=open&card_fields=name%2CidList HTTP/1.1" 200 1355
+2023-09-13 13:25:22,750 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2023-09-13 13:25:23,485 DEBUG : https://api.trello.com:443 "DELETE /1/cards/64e601f1141b19a316aef5f0?key=7d069c46c188afd7a7eaeb18851b9fac&token=ATTAcff8cd91ef9d8108a296d4954de006c36a5f27507477246e8cd87d76edbdf881F66B1476 HTTP/1.1" 200 13
+2023-09-13 13:25:23,514 INFO : 127.0.0.1 - - [13/Sep/2023 13:25:23] "[35m[1mPOST /del-item HTTP/1.1[0m" 500 -
+2023-09-13 13:25:23,553 INFO : 127.0.0.1 - - [13/Sep/2023 13:25:23] "GET /del-item?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-09-13 13:25:23,560 INFO : 127.0.0.1 - - [13/Sep/2023 13:25:23] "GET /del-item?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-09-13 13:25:23,595 INFO : 127.0.0.1 - - [13/Sep/2023 13:25:23] "GET /del-item?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-09-13 13:25:23,607 INFO : 127.0.0.1 - - [13/Sep/2023 13:25:23] "[36mGET /del-item?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-13 13:25:53,935 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2023-09-13 13:25:54,285 DEBUG : https://api.trello.com:443 "GET /1/boards/64ae6f476f946f8c451a5cb2/lists?key=7d069c46c188afd7a7eaeb18851b9fac&token=ATTAcff8cd91ef9d8108a296d4954de006c36a5f27507477246e8cd87d76edbdf881F66B1476&cards=open&card_fields=name%2CidList HTTP/1.1" 200 1261
+2023-09-13 13:25:54,296 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2023-09-13 13:25:54,997 DEBUG : https://api.trello.com:443 "DELETE /1/cards/64e383f87b202c5670d232d6?key=7d069c46c188afd7a7eaeb18851b9fac&token=ATTAcff8cd91ef9d8108a296d4954de006c36a5f27507477246e8cd87d76edbdf881F66B1476 HTTP/1.1" 200 13
+2023-09-13 13:25:55,011 INFO : 127.0.0.1 - - [13/Sep/2023 13:25:55] "[35m[1mPOST /del-item HTTP/1.1[0m" 500 -
+2023-09-13 13:25:55,026 INFO : 127.0.0.1 - - [13/Sep/2023 13:25:55] "[36mGET /del-item?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-09-13 13:25:55,026 INFO : 127.0.0.1 - - [13/Sep/2023 13:25:55] "[36mGET /del-item?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-09-13 13:25:55,037 INFO : 127.0.0.1 - - [13/Sep/2023 13:25:55] "[36mGET /del-item?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-13 13:29:03,044 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2023-09-13 13:29:03,461 DEBUG : https://api.trello.com:443 "GET /1/boards/64ae6f476f946f8c451a5cb2/lists?key=7d069c46c188afd7a7eaeb18851b9fac&token=ATTAcff8cd91ef9d8108a296d4954de006c36a5f27507477246e8cd87d76edbdf881F66B1476&cards=open&card_fields=name%2CidList HTTP/1.1" 200 1164
+2023-09-13 13:29:03,465 INFO : 127.0.0.1 - - [13/Sep/2023 13:29:03] "GET / HTTP/1.1" 200 -
+2023-09-13 13:29:03,502 INFO : 127.0.0.1 - - [13/Sep/2023 13:29:03] "[36mGET /static/LM.png HTTP/1.1[0m" 304 -
+2023-09-13 13:29:03,504 INFO : 127.0.0.1 - - [13/Sep/2023 13:29:03] "[36mGET /static/green-tick.png HTTP/1.1[0m" 304 -
+2023-09-13 13:29:08,647 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2023-09-13 13:29:09,184 DEBUG : https://api.trello.com:443 "POST /1/cards?idList=64ae6f476f946f8c451a5cb9&key=7d069c46c188afd7a7eaeb18851b9fac&token=ATTAcff8cd91ef9d8108a296d4954de006c36a5f27507477246e8cd87d76edbdf881F66B1476&name=sdf99sfd9sdf HTTP/1.1" 200 1128
+2023-09-13 13:29:09,192 INFO : 127.0.0.1 - - [13/Sep/2023 13:29:09] "[35m[1mPOST /add-item HTTP/1.1[0m" 500 -
+2023-09-13 13:29:09,221 INFO : 127.0.0.1 - - [13/Sep/2023 13:29:09] "GET /add-item?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-09-13 13:29:09,226 INFO : 127.0.0.1 - - [13/Sep/2023 13:29:09] "GET /add-item?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-09-13 13:29:09,267 INFO : 127.0.0.1 - - [13/Sep/2023 13:29:09] "GET /add-item?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-09-13 13:29:09,305 INFO : 127.0.0.1 - - [13/Sep/2023 13:29:09] "[36mGET /add-item?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-13 13:34:14,695 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2023-09-13 13:34:15,039 DEBUG : https://api.trello.com:443 "GET /1/boards/64ae6f476f946f8c451a5cb2/lists?key=7d069c46c188afd7a7eaeb18851b9fac&token=ATTAcff8cd91ef9d8108a296d4954de006c36a5f27507477246e8cd87d76edbdf881F66B1476&cards=open&card_fields=name%2CidList HTTP/1.1" 200 1348
+2023-09-13 13:34:15,046 INFO : 127.0.0.1 - - [13/Sep/2023 13:34:15] "GET / HTTP/1.1" 200 -
+2023-09-13 13:34:15,065 INFO : 127.0.0.1 - - [13/Sep/2023 13:34:15] "[36mGET /static/LM.png HTTP/1.1[0m" 304 -
+2023-09-13 13:34:15,069 INFO : 127.0.0.1 - - [13/Sep/2023 13:34:15] "[36mGET /static/green-tick.png HTTP/1.1[0m" 304 -
+2023-09-13 13:34:40,050 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2023-09-13 13:34:40,655 DEBUG : https://api.trello.com:443 "GET /1/boards/64ae6f476f946f8c451a5cb2/lists?key=7d069c46c188afd7a7eaeb18851b9fac&token=ATTAcff8cd91ef9d8108a296d4954de006c36a5f27507477246e8cd87d76edbdf881F66B1476&cards=open&card_fields=name%2CidList HTTP/1.1" 200 1348
+2023-09-13 13:34:40,663 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2023-09-13 13:34:41,372 DEBUG : https://api.trello.com:443 "DELETE /1/cards/6501ac307805d614e797677e?key=7d069c46c188afd7a7eaeb18851b9fac&token=ATTAcff8cd91ef9d8108a296d4954de006c36a5f27507477246e8cd87d76edbdf881F66B1476 HTTP/1.1" 200 13
+2023-09-13 13:34:41,380 INFO : 127.0.0.1 - - [13/Sep/2023 13:34:41] "[35m[1mPOST /del-item HTTP/1.1[0m" 500 -
+2023-09-13 13:34:41,406 INFO : 127.0.0.1 - - [13/Sep/2023 13:34:41] "[36mGET /del-item?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-09-13 13:34:41,408 INFO : 127.0.0.1 - - [13/Sep/2023 13:34:41] "[36mGET /del-item?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-09-13 13:34:41,423 INFO : 127.0.0.1 - - [13/Sep/2023 13:34:41] "[36mGET /del-item?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-13 13:35:16,461 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-09-13 13:35:16,508 INFO :  * Restarting with stat
+2023-09-13 13:35:17,570 INFO : DEBUG ON - level 2
+2023-09-13 13:35:17,734 WARNING :  * Debugger is active!
+2023-09-13 13:35:17,737 INFO :  * Debugger PIN: 131-473-301
+2023-09-13 13:35:21,088 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2023-09-13 13:35:21,472 DEBUG : https://api.trello.com:443 "GET /1/boards/64ae6f476f946f8c451a5cb2/lists?key=7d069c46c188afd7a7eaeb18851b9fac&token=ATTAcff8cd91ef9d8108a296d4954de006c36a5f27507477246e8cd87d76edbdf881F66B1476&cards=open&card_fields=name%2CidList HTTP/1.1" 200 1256
+2023-09-13 13:35:21,547 INFO : 127.0.0.1 - - [13/Sep/2023 13:35:21] "GET / HTTP/1.1" 200 -
+2023-09-13 13:35:21,648 INFO : 127.0.0.1 - - [13/Sep/2023 13:35:21] "[36mGET /static/green-tick.png HTTP/1.1[0m" 304 -
+2023-09-13 13:35:21,651 INFO : 127.0.0.1 - - [13/Sep/2023 13:35:21] "[36mGET /static/LM.png HTTP/1.1[0m" 304 -
+2023-09-13 13:35:25,540 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2023-09-13 13:35:25,932 DEBUG : https://api.trello.com:443 "GET /1/boards/64ae6f476f946f8c451a5cb2/lists?key=7d069c46c188afd7a7eaeb18851b9fac&token=ATTAcff8cd91ef9d8108a296d4954de006c36a5f27507477246e8cd87d76edbdf881F66B1476&cards=open&card_fields=name%2CidList HTTP/1.1" 200 1256
+2023-09-13 13:35:25,937 INFO : 127.0.0.1 - - [13/Sep/2023 13:35:25] "GET / HTTP/1.1" 200 -
+2023-09-13 13:35:25,962 INFO : 127.0.0.1 - - [13/Sep/2023 13:35:25] "[36mGET /static/LM.png HTTP/1.1[0m" 304 -
+2023-09-13 13:35:25,964 INFO : 127.0.0.1 - - [13/Sep/2023 13:35:25] "[36mGET /static/green-tick.png HTTP/1.1[0m" 304 -
+2023-09-13 13:35:26,468 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2023-09-13 13:35:26,832 DEBUG : https://api.trello.com:443 "GET /1/boards/64ae6f476f946f8c451a5cb2/lists?key=7d069c46c188afd7a7eaeb18851b9fac&token=ATTAcff8cd91ef9d8108a296d4954de006c36a5f27507477246e8cd87d76edbdf881F66B1476&cards=open&card_fields=name%2CidList HTTP/1.1" 200 1256
+2023-09-13 13:35:26,839 INFO : 127.0.0.1 - - [13/Sep/2023 13:35:26] "GET / HTTP/1.1" 200 -
+2023-09-13 13:35:26,864 INFO : 127.0.0.1 - - [13/Sep/2023 13:35:26] "[36mGET /static/LM.png HTTP/1.1[0m" 304 -
+2023-09-13 13:35:26,867 INFO : 127.0.0.1 - - [13/Sep/2023 13:35:26] "[36mGET /static/green-tick.png HTTP/1.1[0m" 304 -
+2023-09-13 13:35:26,986 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2023-09-13 13:35:27,373 DEBUG : https://api.trello.com:443 "GET /1/boards/64ae6f476f946f8c451a5cb2/lists?key=7d069c46c188afd7a7eaeb18851b9fac&token=ATTAcff8cd91ef9d8108a296d4954de006c36a5f27507477246e8cd87d76edbdf881F66B1476&cards=open&card_fields=name%2CidList HTTP/1.1" 200 1256
+2023-09-13 13:35:27,382 INFO : 127.0.0.1 - - [13/Sep/2023 13:35:27] "GET / HTTP/1.1" 200 -
+2023-09-13 13:35:27,413 INFO : 127.0.0.1 - - [13/Sep/2023 13:35:27] "[36mGET /static/LM.png HTTP/1.1[0m" 304 -
+2023-09-13 13:35:27,414 INFO : 127.0.0.1 - - [13/Sep/2023 13:35:27] "[36mGET /static/green-tick.png HTTP/1.1[0m" 304 -
+2023-09-13 13:35:30,198 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2023-09-13 13:35:30,536 DEBUG : https://api.trello.com:443 "GET /1/boards/64ae6f476f946f8c451a5cb2/lists?key=7d069c46c188afd7a7eaeb18851b9fac&token=ATTAcff8cd91ef9d8108a296d4954de006c36a5f27507477246e8cd87d76edbdf881F66B1476&cards=open&card_fields=name%2CidList HTTP/1.1" 200 1256
+2023-09-13 13:35:30,547 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2023-09-13 13:35:31,909 DEBUG : https://api.trello.com:443 "DELETE /1/cards/6501ab1638a3a10510aabf20?key=7d069c46c188afd7a7eaeb18851b9fac&token=ATTAcff8cd91ef9d8108a296d4954de006c36a5f27507477246e8cd87d76edbdf881F66B1476 HTTP/1.1" 200 13
+2023-09-13 13:35:31,914 INFO : 127.0.0.1 - - [13/Sep/2023 13:35:31] "[32mPOST /del-item HTTP/1.1[0m" 302 -
+2023-09-13 13:35:31,919 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2023-09-13 13:35:32,334 DEBUG : https://api.trello.com:443 "GET /1/boards/64ae6f476f946f8c451a5cb2/lists?key=7d069c46c188afd7a7eaeb18851b9fac&token=ATTAcff8cd91ef9d8108a296d4954de006c36a5f27507477246e8cd87d76edbdf881F66B1476&cards=open&card_fields=name%2CidList HTTP/1.1" 200 1164
+2023-09-13 13:35:32,338 INFO : 127.0.0.1 - - [13/Sep/2023 13:35:32] "GET / HTTP/1.1" 200 -
+2023-09-13 13:35:32,358 INFO : 127.0.0.1 - - [13/Sep/2023 13:35:32] "[36mGET /static/LM.png HTTP/1.1[0m" 304 -
+2023-09-13 13:35:32,359 INFO : 127.0.0.1 - - [13/Sep/2023 13:35:32] "[36mGET /static/green-tick.png HTTP/1.1[0m" 304 -
+2023-09-13 13:35:42,854 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2023-09-13 13:35:43,332 DEBUG : https://api.trello.com:443 "POST /1/cards?idList=64ae6f476f946f8c451a5cb9&key=7d069c46c188afd7a7eaeb18851b9fac&token=ATTAcff8cd91ef9d8108a296d4954de006c36a5f27507477246e8cd87d76edbdf881F66B1476&name=sdf34tsfgsd4t343+34+t3 HTTP/1.1" 200 1148
+2023-09-13 13:35:43,358 INFO : 127.0.0.1 - - [13/Sep/2023 13:35:43] "[35m[1mPOST /add-item HTTP/1.1[0m" 500 -
+2023-09-13 13:35:43,381 INFO : 127.0.0.1 - - [13/Sep/2023 13:35:43] "[36mGET /add-item?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-09-13 13:35:43,383 INFO : 127.0.0.1 - - [13/Sep/2023 13:35:43] "[36mGET /add-item?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-09-13 13:35:43,397 INFO : 127.0.0.1 - - [13/Sep/2023 13:35:43] "[36mGET /add-item?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-13 13:37:19,125 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-09-13 13:37:19,161 INFO :  * Restarting with stat
+2023-09-13 13:37:19,573 INFO : DEBUG ON - level 2
+2023-09-13 13:37:19,673 WARNING :  * Debugger is active!
+2023-09-13 13:37:19,677 INFO :  * Debugger PIN: 131-473-301
+2023-09-13 13:37:25,878 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-09-13 13:37:25,920 INFO :  * Restarting with stat
+2023-09-13 13:37:26,349 INFO : DEBUG ON - level 2
+2023-09-13 13:37:26,449 WARNING :  * Debugger is active!
+2023-09-13 13:37:26,452 INFO :  * Debugger PIN: 131-473-301
+2023-09-13 13:37:36,878 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2023-09-13 13:37:37,283 DEBUG : https://api.trello.com:443 "GET /1/boards/64ae6f476f946f8c451a5cb2/lists?key=7d069c46c188afd7a7eaeb18851b9fac&token=ATTAcff8cd91ef9d8108a296d4954de006c36a5f27507477246e8cd87d76edbdf881F66B1476&cards=open&card_fields=name%2CidList HTTP/1.1" 200 1266
+2023-09-13 13:37:37,299 INFO : 127.0.0.1 - - [13/Sep/2023 13:37:37] "GET / HTTP/1.1" 200 -
+2023-09-13 13:37:37,396 INFO : 127.0.0.1 - - [13/Sep/2023 13:37:37] "[36mGET /static/LM.png HTTP/1.1[0m" 304 -
+2023-09-13 13:37:37,397 INFO : 127.0.0.1 - - [13/Sep/2023 13:37:37] "[36mGET /static/green-tick.png HTTP/1.1[0m" 304 -
+2023-09-13 13:37:49,384 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2023-09-13 13:37:49,737 DEBUG : https://api.trello.com:443 "GET /1/boards/64ae6f476f946f8c451a5cb2/lists?key=7d069c46c188afd7a7eaeb18851b9fac&token=ATTAcff8cd91ef9d8108a296d4954de006c36a5f27507477246e8cd87d76edbdf881F66B1476&cards=open&card_fields=name%2CidList HTTP/1.1" 200 1266
+2023-09-13 13:37:49,749 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2023-09-13 13:37:50,096 DEBUG : https://api.trello.com:443 "GET /1/boards/64ae6f476f946f8c451a5cb2/lists?key=7d069c46c188afd7a7eaeb18851b9fac&token=ATTAcff8cd91ef9d8108a296d4954de006c36a5f27507477246e8cd87d76edbdf881F66B1476&cards=open&card_fields=name%2CidList HTTP/1.1" 200 1266
+2023-09-13 13:37:50,102 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2023-09-13 13:37:50,591 DEBUG : https://api.trello.com:443 "PUT /1/cards/6501aca0660851f5ff150d93?key=7d069c46c188afd7a7eaeb18851b9fac&token=ATTAcff8cd91ef9d8108a296d4954de006c36a5f27507477246e8cd87d76edbdf881F66B1476&name=another+TODOOO+item&idList=64ae6f476f946f8c451a5cba HTTP/1.1" 200 1099
+2023-09-13 13:37:50,595 INFO : 127.0.0.1 - - [13/Sep/2023 13:37:50] "[32mPOST /upd-item HTTP/1.1[0m" 302 -
+2023-09-13 13:37:50,605 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2023-09-13 13:37:51,013 DEBUG : https://api.trello.com:443 "GET /1/boards/64ae6f476f946f8c451a5cb2/lists?key=7d069c46c188afd7a7eaeb18851b9fac&token=ATTAcff8cd91ef9d8108a296d4954de006c36a5f27507477246e8cd87d76edbdf881F66B1476&cards=open&card_fields=name%2CidList HTTP/1.1" 200 1263
+2023-09-13 13:37:51,018 INFO : 127.0.0.1 - - [13/Sep/2023 13:37:51] "GET / HTTP/1.1" 200 -
+2023-09-13 13:37:51,039 INFO : 127.0.0.1 - - [13/Sep/2023 13:37:51] "[36mGET /static/LM.png HTTP/1.1[0m" 304 -
+2023-09-13 13:37:51,040 INFO : 127.0.0.1 - - [13/Sep/2023 13:37:51] "[36mGET /static/green-tick.png HTTP/1.1[0m" 304 -
+2023-09-13 13:39:37,411 INFO : DEBUG ON - level 2
+2023-09-13 13:39:37,507 INFO : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-13 13:39:37,507 INFO : [33mPress CTRL+C to quit[0m
+2023-09-13 13:39:37,508 INFO :  * Restarting with stat
+2023-09-13 13:39:37,900 INFO : DEBUG ON - level 2
+2023-09-13 13:39:37,992 WARNING :  * Debugger is active!
+2023-09-13 13:39:37,997 INFO :  * Debugger PIN: 131-473-301
+2023-09-13 13:39:43,219 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2023-09-13 13:39:43,580 DEBUG : https://api.trello.com:443 "GET /1/boards/64ae6f476f946f8c451a5cb2/lists?key=7d069c46c188afd7a7eaeb18851b9fac&token=ATTAcff8cd91ef9d8108a296d4954de006c36a5f27507477246e8cd87d76edbdf881F66B1476&cards=open&card_fields=name%2CidList HTTP/1.1" 200 1263
+2023-09-13 13:39:43,585 INFO : 127.0.0.1 - - [13/Sep/2023 13:39:43] "GET / HTTP/1.1" 200 -
+2023-09-13 13:39:43,651 INFO : 127.0.0.1 - - [13/Sep/2023 13:39:43] "[36mGET /static/LM.png HTTP/1.1[0m" 304 -
+2023-09-13 13:39:43,652 INFO : 127.0.0.1 - - [13/Sep/2023 13:39:43] "[36mGET /static/green-tick.png HTTP/1.1[0m" 304 -
+2023-09-13 13:40:13,792 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2023-09-13 13:40:14,306 DEBUG : https://api.trello.com:443 "POST /1/cards?idList=64ae6f476f946f8c451a5cb9&key=7d069c46c188afd7a7eaeb18851b9fac&token=ATTAcff8cd91ef9d8108a296d4954de006c36a5f27507477246e8cd87d76edbdf881F66B1476&name=my+todo+task HTTP/1.1" 200 1128
+2023-09-13 13:40:14,317 INFO : 127.0.0.1 - - [13/Sep/2023 13:40:14] "[32mPOST /add-item HTTP/1.1[0m" 302 -
+2023-09-13 13:40:14,324 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2023-09-13 13:40:14,710 DEBUG : https://api.trello.com:443 "GET /1/boards/64ae6f476f946f8c451a5cb2/lists?key=7d069c46c188afd7a7eaeb18851b9fac&token=ATTAcff8cd91ef9d8108a296d4954de006c36a5f27507477246e8cd87d76edbdf881F66B1476&cards=open&card_fields=name%2CidList HTTP/1.1" 200 1355
+2023-09-13 13:40:14,717 INFO : 127.0.0.1 - - [13/Sep/2023 13:40:14] "GET / HTTP/1.1" 200 -
+2023-09-13 13:40:14,739 INFO : 127.0.0.1 - - [13/Sep/2023 13:40:14] "[36mGET /static/LM.png HTTP/1.1[0m" 304 -
+2023-09-13 13:40:14,741 INFO : 127.0.0.1 - - [13/Sep/2023 13:40:14] "[36mGET /static/green-tick.png HTTP/1.1[0m" 304 -
+2023-09-13 13:54:24,893 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-09-13 13:54:24,938 INFO :  * Restarting with stat
+2023-09-13 13:54:25,399 INFO : DEBUG ON - level 2
+2023-09-13 13:54:25,512 WARNING :  * Debugger is active!
+2023-09-13 13:54:25,516 INFO :  * Debugger PIN: 631-081-675
+2023-09-13 13:54:28,663 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-09-13 13:54:28,719 INFO :  * Restarting with stat
+2023-09-13 13:54:29,194 INFO : DEBUG ON - level 2
+2023-09-13 13:54:29,391 WARNING :  * Debugger is active!
+2023-09-13 13:54:29,401 INFO :  * Debugger PIN: 631-081-675
+2023-09-13 13:54:48,038 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\ViewModelClass.py', reloading
+2023-09-13 13:54:48,140 INFO :  * Restarting with stat
+2023-09-13 13:54:48,553 INFO : DEBUG ON - level 2
+2023-09-13 13:54:48,636 WARNING :  * Debugger is active!
+2023-09-13 13:54:48,641 INFO :  * Debugger PIN: 131-473-301
+2023-09-13 13:55:47,500 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\tests\\test_app.py', reloading
+2023-09-13 13:55:47,542 INFO :  * Restarting with stat
+2023-09-13 13:55:47,867 INFO : DEBUG ON - level 2
+2023-09-13 13:55:47,944 WARNING :  * Debugger is active!
+2023-09-13 13:55:47,948 INFO :  * Debugger PIN: 131-473-301
+2023-09-13 13:56:20,952 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-09-13 13:56:20,993 INFO :  * Restarting with stat
+2023-09-13 13:56:21,341 INFO : DEBUG ON - level 2
+2023-09-13 13:56:21,422 WARNING :  * Debugger is active!
+2023-09-13 13:56:21,426 INFO :  * Debugger PIN: 131-473-301
+2023-09-13 13:56:22,490 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-09-13 13:56:22,525 INFO :  * Restarting with stat
+2023-09-13 13:56:22,844 INFO : DEBUG ON - level 2
+2023-09-13 13:56:22,929 WARNING :  * Debugger is active!
+2023-09-13 13:56:22,933 INFO :  * Debugger PIN: 131-473-301
+2023-09-13 13:56:27,071 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-09-13 13:56:27,111 INFO :  * Restarting with stat
+2023-09-13 13:56:27,461 INFO : DEBUG ON - level 2
+2023-09-13 13:56:27,541 WARNING :  * Debugger is active!
+2023-09-13 13:56:27,545 INFO :  * Debugger PIN: 131-473-301
+2023-09-13 13:56:30,666 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-09-13 13:56:30,729 INFO :  * Restarting with stat
+2023-09-13 13:56:31,227 INFO : DEBUG ON - level 2
+2023-09-13 13:56:31,337 WARNING :  * Debugger is active!
+2023-09-13 13:56:31,343 INFO :  * Debugger PIN: 131-473-301
+2023-09-13 13:56:32,420 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-09-13 13:56:32,482 INFO :  * Restarting with stat
+2023-09-13 13:56:32,929 INFO : DEBUG ON - level 2
+2023-09-13 13:56:33,033 WARNING :  * Debugger is active!
+2023-09-13 13:56:33,037 INFO :  * Debugger PIN: 131-473-301
+2023-09-13 13:56:38,942 INFO : DEBUG ON - level 2
+2023-09-13 13:56:39,050 INFO : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-13 13:56:39,050 INFO : [33mPress CTRL+C to quit[0m
+2023-09-13 13:56:39,051 INFO :  * Restarting with stat
+2023-09-13 13:56:39,427 INFO : DEBUG ON - level 2
+2023-09-13 13:56:39,511 WARNING :  * Debugger is active!
+2023-09-13 13:56:39,515 INFO :  * Debugger PIN: 131-473-301
+2023-09-13 13:56:46,572 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2023-09-13 13:56:47,211 DEBUG : https://api.trello.com:443 "GET /1/boards/64ae6f476f946f8c451a5cb2/lists?key=7d069c46c188afd7a7eaeb18851b9fac&token=ATTAcff8cd91ef9d8108a296d4954de006c36a5f27507477246e8cd87d76edbdf881F66B1476&cards=open&card_fields=name%2CidList HTTP/1.1" 200 1355
+2023-09-13 13:56:47,220 INFO : 127.0.0.1 - - [13/Sep/2023 13:56:47] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-09-13 13:56:47,307 INFO : 127.0.0.1 - - [13/Sep/2023 13:56:47] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2023-09-13 13:56:47,309 INFO : 127.0.0.1 - - [13/Sep/2023 13:56:47] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2023-09-13 13:56:47,317 INFO : 127.0.0.1 - - [13/Sep/2023 13:56:47] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2023-09-13 13:56:47,344 INFO : 127.0.0.1 - - [13/Sep/2023 13:56:47] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-13 13:57:20,735 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-09-13 13:57:20,777 INFO :  * Restarting with stat
+2023-09-13 13:57:21,096 INFO : DEBUG ON - level 2
+2023-09-13 13:57:21,177 WARNING :  * Debugger is active!
+2023-09-13 13:57:21,181 INFO :  * Debugger PIN: 131-473-301
+2023-09-13 13:57:27,538 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2023-09-13 13:57:27,942 DEBUG : https://api.trello.com:443 "GET /1/boards/64ae6f476f946f8c451a5cb2/lists?key=7d069c46c188afd7a7eaeb18851b9fac&token=ATTAcff8cd91ef9d8108a296d4954de006c36a5f27507477246e8cd87d76edbdf881F66B1476&cards=open&card_fields=name%2CidList HTTP/1.1" 200 1355
+2023-09-13 13:57:27,953 INFO : 127.0.0.1 - - [13/Sep/2023 13:57:27] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-09-13 13:57:28,033 INFO : 127.0.0.1 - - [13/Sep/2023 13:57:28] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-09-13 13:57:28,035 INFO : 127.0.0.1 - - [13/Sep/2023 13:57:28] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-09-13 13:57:28,042 INFO : 127.0.0.1 - - [13/Sep/2023 13:57:28] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-13 13:57:28,052 INFO : 127.0.0.1 - - [13/Sep/2023 13:57:28] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-13 13:57:29,057 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2023-09-13 13:57:29,488 DEBUG : https://api.trello.com:443 "GET /1/boards/64ae6f476f946f8c451a5cb2/lists?key=7d069c46c188afd7a7eaeb18851b9fac&token=ATTAcff8cd91ef9d8108a296d4954de006c36a5f27507477246e8cd87d76edbdf881F66B1476&cards=open&card_fields=name%2CidList HTTP/1.1" 200 1355
+2023-09-13 13:57:29,499 INFO : 127.0.0.1 - - [13/Sep/2023 13:57:29] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2023-09-13 13:57:29,517 INFO : 127.0.0.1 - - [13/Sep/2023 13:57:29] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-09-13 13:57:29,518 INFO : 127.0.0.1 - - [13/Sep/2023 13:57:29] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-09-13 13:57:29,534 INFO : 127.0.0.1 - - [13/Sep/2023 13:57:29] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-13 13:57:29,542 INFO : 127.0.0.1 - - [13/Sep/2023 13:57:29] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-13 14:04:10,613 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-09-13 14:04:10,663 INFO :  * Restarting with stat
+2023-09-13 14:04:11,346 INFO : DEBUG ON - level 2
+2023-09-13 14:04:11,450 WARNING :  * Debugger is active!
+2023-09-13 14:04:11,454 INFO :  * Debugger PIN: 131-473-301
+2023-09-13 14:04:12,528 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-09-13 14:04:12,562 INFO :  * Restarting with stat
+2023-09-13 14:04:12,949 INFO : DEBUG ON - level 2
+2023-09-13 14:04:13,056 WARNING :  * Debugger is active!
+2023-09-13 14:04:13,062 INFO :  * Debugger PIN: 131-473-301
+2023-09-13 14:04:15,830 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2023-09-13 14:04:16,351 DEBUG : https://api.trello.com:443 "GET /1/boards/64ae6f476f946f8c451a5cb2/lists?key=7d069c46c188afd7a7eaeb18851b9fac&token=ATTAcff8cd91ef9d8108a296d4954de006c36a5f27507477246e8cd87d76edbdf881F66B1476&cards=open&card_fields=name%2CidList HTTP/1.1" 200 1355
+2023-09-13 14:04:16,387 INFO : 127.0.0.1 - - [13/Sep/2023 14:04:16] "GET / HTTP/1.1" 200 -
+2023-09-13 14:04:16,471 INFO : 127.0.0.1 - - [13/Sep/2023 14:04:16] "[36mGET /static/LM.png HTTP/1.1[0m" 304 -
+2023-09-13 14:04:16,472 INFO : 127.0.0.1 - - [13/Sep/2023 14:04:16] "[36mGET /static/green-tick.png HTTP/1.1[0m" 304 -
+2023-09-13 14:04:23,385 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2023-09-13 14:04:23,785 DEBUG : https://api.trello.com:443 "GET /1/boards/64ae6f476f946f8c451a5cb2/lists?key=7d069c46c188afd7a7eaeb18851b9fac&token=ATTAcff8cd91ef9d8108a296d4954de006c36a5f27507477246e8cd87d76edbdf881F66B1476&cards=open&card_fields=name%2CidList HTTP/1.1" 200 1355
+2023-09-13 14:04:23,789 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2023-09-13 14:04:24,500 DEBUG : https://api.trello.com:443 "DELETE /1/cards/64afab6952c07657c5acc3a4?key=7d069c46c188afd7a7eaeb18851b9fac&token=ATTAcff8cd91ef9d8108a296d4954de006c36a5f27507477246e8cd87d76edbdf881F66B1476 HTTP/1.1" 200 13
+2023-09-13 14:04:24,509 INFO : 127.0.0.1 - - [13/Sep/2023 14:04:24] "[35m[1mPOST /del-item HTTP/1.1[0m" 500 -
+2023-09-13 14:04:24,536 INFO : 127.0.0.1 - - [13/Sep/2023 14:04:24] "[36mGET /del-item?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-09-13 14:04:24,541 INFO : 127.0.0.1 - - [13/Sep/2023 14:04:24] "[36mGET /del-item?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-09-13 14:04:24,558 INFO : 127.0.0.1 - - [13/Sep/2023 14:04:24] "[36mGET /del-item?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-13 14:05:09,745 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-09-13 14:05:09,784 INFO :  * Restarting with stat
+2023-09-13 14:05:10,124 INFO : DEBUG ON - level 2
+2023-09-13 14:05:10,199 WARNING :  * Debugger is active!
+2023-09-13 14:05:10,203 INFO :  * Debugger PIN: 131-473-301
+2023-09-13 14:05:51,453 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-09-13 14:05:51,500 INFO :  * Restarting with stat
+2023-09-13 14:05:51,876 INFO : DEBUG ON - level 2
+2023-09-13 14:05:51,968 WARNING :  * Debugger is active!
+2023-09-13 14:05:51,972 INFO :  * Debugger PIN: 631-081-675
+2023-09-13 14:05:53,049 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-09-13 14:05:53,088 INFO :  * Restarting with stat
+2023-09-13 14:05:53,457 INFO : DEBUG ON - level 2
+2023-09-13 14:05:53,546 WARNING :  * Debugger is active!
+2023-09-13 14:05:53,552 INFO :  * Debugger PIN: 131-473-301
+2023-09-13 14:05:56,679 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-09-13 14:05:56,719 INFO :  * Restarting with stat
+2023-09-13 14:05:57,048 INFO : DEBUG ON - level 2
+2023-09-13 14:05:57,127 WARNING :  * Debugger is active!
+2023-09-13 14:05:57,131 INFO :  * Debugger PIN: 131-473-301
+2023-09-13 14:06:04,381 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-09-13 14:06:04,459 INFO :  * Restarting with stat
+2023-09-13 14:06:04,804 INFO : DEBUG ON - level 2
+2023-09-13 14:06:04,892 WARNING :  * Debugger is active!
+2023-09-13 14:06:04,896 INFO :  * Debugger PIN: 131-473-301
+2023-09-13 14:06:07,925 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2023-09-13 14:06:08,428 DEBUG : https://api.trello.com:443 "GET /1/boards/64ae6f476f946f8c451a5cb2/lists?key=7d069c46c188afd7a7eaeb18851b9fac&token=ATTAcff8cd91ef9d8108a296d4954de006c36a5f27507477246e8cd87d76edbdf881F66B1476&cards=open&card_fields=name%2CidList HTTP/1.1" 200 1254
+2023-09-13 14:06:08,437 INFO : 127.0.0.1 - - [13/Sep/2023 14:06:08] "[35m[1mPOST /del-item HTTP/1.1[0m" 500 -
+2023-09-13 14:06:08,518 INFO : 127.0.0.1 - - [13/Sep/2023 14:06:08] "[36mGET /del-item?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2023-09-13 14:06:08,519 INFO : 127.0.0.1 - - [13/Sep/2023 14:06:08] "[36mGET /del-item?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2023-09-13 14:06:08,530 INFO : 127.0.0.1 - - [13/Sep/2023 14:06:08] "[36mGET /del-item?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-13 14:06:08,538 INFO : 127.0.0.1 - - [13/Sep/2023 14:06:08] "[36mGET /del-item?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2023-09-13 14:06:19,816 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2023-09-13 14:06:20,250 DEBUG : https://api.trello.com:443 "GET /1/boards/64ae6f476f946f8c451a5cb2/lists?key=7d069c46c188afd7a7eaeb18851b9fac&token=ATTAcff8cd91ef9d8108a296d4954de006c36a5f27507477246e8cd87d76edbdf881F66B1476&cards=open&card_fields=name%2CidList HTTP/1.1" 200 1254
+2023-09-13 14:06:20,252 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9]
+2023-09-13 14:06:20,252 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9]
+2023-09-13 14:06:20,252 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9]
+2023-09-13 14:06:20,252 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9, 64afab39aab99459189c53a8trello64ae6f476f946f8c451a5cba]
+2023-09-13 14:06:20,252 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9, 64afab39aab99459189c53a8trello64ae6f476f946f8c451a5cba, 6501aca0660851f5ff150d93another TODOOO item64ae6f476f946f8c451a5cba]
+2023-09-13 14:06:20,252 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9, 64afab39aab99459189c53a8trello64ae6f476f946f8c451a5cba, 6501aca0660851f5ff150d93another TODOOO item64ae6f476f946f8c451a5cba, 64e5dc4ad15e3be6e8f08f75another item to add64ae6f476f946f8c451a5cba]
+2023-09-13 14:06:20,252 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9, 64afab39aab99459189c53a8trello64ae6f476f946f8c451a5cba, 6501aca0660851f5ff150d93another TODOOO item64ae6f476f946f8c451a5cba, 64e5dc4ad15e3be6e8f08f75another item to add64ae6f476f946f8c451a5cba, 64afab7091a51e58ba073e94api key64ae6f476f946f8c451a5cbb]
+2023-09-13 14:06:20,252 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9, 64afab39aab99459189c53a8trello64ae6f476f946f8c451a5cba, 6501aca0660851f5ff150d93another TODOOO item64ae6f476f946f8c451a5cba, 64e5dc4ad15e3be6e8f08f75another item to add64ae6f476f946f8c451a5cba, 64afab7091a51e58ba073e94api key64ae6f476f946f8c451a5cbb, 64e49dcc1348172ad0b29d0dAdd a done item64ae6f476f946f8c451a5cbb]
+2023-09-13 14:06:20,263 INFO : 127.0.0.1 - - [13/Sep/2023 14:06:20] "GET / HTTP/1.1" 200 -
+2023-09-13 14:06:20,282 INFO : 127.0.0.1 - - [13/Sep/2023 14:06:20] "[36mGET /static/LM.png HTTP/1.1[0m" 304 -
+2023-09-13 14:06:20,282 INFO : 127.0.0.1 - - [13/Sep/2023 14:06:20] "[36mGET /static/green-tick.png HTTP/1.1[0m" 304 -
+2023-09-13 14:06:27,602 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2023-09-13 14:06:28,146 DEBUG : https://api.trello.com:443 "POST /1/cards?idList=64ae6f476f946f8c451a5cb9&key=7d069c46c188afd7a7eaeb18851b9fac&token=ATTAcff8cd91ef9d8108a296d4954de006c36a5f27507477246e8cd87d76edbdf881F66B1476&name=add+item HTTP/1.1" 200 1120
+2023-09-13 14:06:28,148 INFO : DEBUG
+  WHERE:    app.py add-item route 
+  WHAT:     add_trello_card 
+  VARNAME:  item_title 
+  TYPE:     <class 'str'> 
+  CONTENTS: add item
+2023-09-13 14:06:28,148 INFO : 127.0.0.1 - - [13/Sep/2023 14:06:28] "[32mPOST /add-item HTTP/1.1[0m" 302 -
+2023-09-13 14:06:28,154 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2023-09-13 14:06:28,608 DEBUG : https://api.trello.com:443 "GET /1/boards/64ae6f476f946f8c451a5cb2/lists?key=7d069c46c188afd7a7eaeb18851b9fac&token=ATTAcff8cd91ef9d8108a296d4954de006c36a5f27507477246e8cd87d76edbdf881F66B1476&cards=open&card_fields=name%2CidList HTTP/1.1" 200 1342
+2023-09-13 14:06:28,611 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9]
+2023-09-13 14:06:28,611 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9]
+2023-09-13 14:06:28,611 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9]
+2023-09-13 14:06:28,612 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9, 6501b3d42fe5c57553d5af00add item64ae6f476f946f8c451a5cb9]
+2023-09-13 14:06:28,612 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9, 6501b3d42fe5c57553d5af00add item64ae6f476f946f8c451a5cb9, 64afab39aab99459189c53a8trello64ae6f476f946f8c451a5cba]
+2023-09-13 14:06:28,612 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9, 6501b3d42fe5c57553d5af00add item64ae6f476f946f8c451a5cb9, 64afab39aab99459189c53a8trello64ae6f476f946f8c451a5cba, 6501aca0660851f5ff150d93another TODOOO item64ae6f476f946f8c451a5cba]
+2023-09-13 14:06:28,612 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9, 6501b3d42fe5c57553d5af00add item64ae6f476f946f8c451a5cb9, 64afab39aab99459189c53a8trello64ae6f476f946f8c451a5cba, 6501aca0660851f5ff150d93another TODOOO item64ae6f476f946f8c451a5cba, 64e5dc4ad15e3be6e8f08f75another item to add64ae6f476f946f8c451a5cba]
+2023-09-13 14:06:28,612 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9, 6501b3d42fe5c57553d5af00add item64ae6f476f946f8c451a5cb9, 64afab39aab99459189c53a8trello64ae6f476f946f8c451a5cba, 6501aca0660851f5ff150d93another TODOOO item64ae6f476f946f8c451a5cba, 64e5dc4ad15e3be6e8f08f75another item to add64ae6f476f946f8c451a5cba, 64afab7091a51e58ba073e94api key64ae6f476f946f8c451a5cbb]
+2023-09-13 14:06:28,612 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9, 6501b3d42fe5c57553d5af00add item64ae6f476f946f8c451a5cb9, 64afab39aab99459189c53a8trello64ae6f476f946f8c451a5cba, 6501aca0660851f5ff150d93another TODOOO item64ae6f476f946f8c451a5cba, 64e5dc4ad15e3be6e8f08f75another item to add64ae6f476f946f8c451a5cba, 64afab7091a51e58ba073e94api key64ae6f476f946f8c451a5cbb, 64e49dcc1348172ad0b29d0dAdd a done item64ae6f476f946f8c451a5cbb]
+2023-09-13 14:06:28,614 INFO : 127.0.0.1 - - [13/Sep/2023 14:06:28] "GET / HTTP/1.1" 200 -
+2023-09-13 14:06:28,639 INFO : 127.0.0.1 - - [13/Sep/2023 14:06:28] "[36mGET /static/LM.png HTTP/1.1[0m" 304 -
+2023-09-13 14:06:28,639 INFO : 127.0.0.1 - - [13/Sep/2023 14:06:28] "[36mGET /static/green-tick.png HTTP/1.1[0m" 304 -
+2023-09-13 14:06:44,131 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2023-09-13 14:06:44,541 DEBUG : https://api.trello.com:443 "GET /1/boards/64ae6f476f946f8c451a5cb2/lists?key=7d069c46c188afd7a7eaeb18851b9fac&token=ATTAcff8cd91ef9d8108a296d4954de006c36a5f27507477246e8cd87d76edbdf881F66B1476&cards=open&card_fields=name%2CidList HTTP/1.1" 200 1342
+2023-09-13 14:06:44,545 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2023-09-13 14:06:44,971 DEBUG : https://api.trello.com:443 "GET /1/boards/64ae6f476f946f8c451a5cb2/lists?key=7d069c46c188afd7a7eaeb18851b9fac&token=ATTAcff8cd91ef9d8108a296d4954de006c36a5f27507477246e8cd87d76edbdf881F66B1476&cards=open&card_fields=name%2CidList HTTP/1.1" 200 1342
+2023-09-13 14:06:44,973 INFO : DEBUG
+  WHERE:    app.py upd-item route 
+  WHAT:     upd_trello_card 
+  VARNAME:  item 
+  TYPE:     <class 'dict'> 
+  CONTENTS: {'id': '6501b3d42fe5c57553d5af00', 'idList': '64ae6f476f946f8c451a5cba', 'name': 'updating'}
+2023-09-13 14:06:44,975 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2023-09-13 14:06:45,535 DEBUG : https://api.trello.com:443 "PUT /1/cards/6501b3d42fe5c57553d5af00?key=7d069c46c188afd7a7eaeb18851b9fac&token=ATTAcff8cd91ef9d8108a296d4954de006c36a5f27507477246e8cd87d76edbdf881F66B1476&name=updating&idList=64ae6f476f946f8c451a5cba HTTP/1.1" 200 1077
+2023-09-13 14:06:45,537 INFO : 127.0.0.1 - - [13/Sep/2023 14:06:45] "[32mPOST /upd-item HTTP/1.1[0m" 302 -
+2023-09-13 14:06:45,543 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2023-09-13 14:06:46,117 DEBUG : https://api.trello.com:443 "GET /1/boards/64ae6f476f946f8c451a5cb2/lists?key=7d069c46c188afd7a7eaeb18851b9fac&token=ATTAcff8cd91ef9d8108a296d4954de006c36a5f27507477246e8cd87d76edbdf881F66B1476&cards=open&card_fields=name%2CidList HTTP/1.1" 200 1342
+2023-09-13 14:06:46,119 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9]
+2023-09-13 14:06:46,119 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9]
+2023-09-13 14:06:46,119 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9]
+2023-09-13 14:06:46,119 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9, 64afab39aab99459189c53a8trello64ae6f476f946f8c451a5cba]
+2023-09-13 14:06:46,119 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9, 64afab39aab99459189c53a8trello64ae6f476f946f8c451a5cba, 6501aca0660851f5ff150d93another TODOOO item64ae6f476f946f8c451a5cba]
+2023-09-13 14:06:46,120 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9, 64afab39aab99459189c53a8trello64ae6f476f946f8c451a5cba, 6501aca0660851f5ff150d93another TODOOO item64ae6f476f946f8c451a5cba, 6501b3d42fe5c57553d5af00updating64ae6f476f946f8c451a5cba]
+2023-09-13 14:06:46,120 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9, 64afab39aab99459189c53a8trello64ae6f476f946f8c451a5cba, 6501aca0660851f5ff150d93another TODOOO item64ae6f476f946f8c451a5cba, 6501b3d42fe5c57553d5af00updating64ae6f476f946f8c451a5cba, 64e5dc4ad15e3be6e8f08f75another item to add64ae6f476f946f8c451a5cba]
+2023-09-13 14:06:46,120 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9, 64afab39aab99459189c53a8trello64ae6f476f946f8c451a5cba, 6501aca0660851f5ff150d93another TODOOO item64ae6f476f946f8c451a5cba, 6501b3d42fe5c57553d5af00updating64ae6f476f946f8c451a5cba, 64e5dc4ad15e3be6e8f08f75another item to add64ae6f476f946f8c451a5cba, 64afab7091a51e58ba073e94api key64ae6f476f946f8c451a5cbb]
+2023-09-13 14:06:46,120 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9, 64afab39aab99459189c53a8trello64ae6f476f946f8c451a5cba, 6501aca0660851f5ff150d93another TODOOO item64ae6f476f946f8c451a5cba, 6501b3d42fe5c57553d5af00updating64ae6f476f946f8c451a5cba, 64e5dc4ad15e3be6e8f08f75another item to add64ae6f476f946f8c451a5cba, 64afab7091a51e58ba073e94api key64ae6f476f946f8c451a5cbb, 64e49dcc1348172ad0b29d0dAdd a done item64ae6f476f946f8c451a5cbb]
+2023-09-13 14:06:46,120 INFO : 127.0.0.1 - - [13/Sep/2023 14:06:46] "GET / HTTP/1.1" 200 -
+2023-09-13 14:06:46,139 INFO : 127.0.0.1 - - [13/Sep/2023 14:06:46] "[36mGET /static/LM.png HTTP/1.1[0m" 304 -
+2023-09-13 14:06:46,140 INFO : 127.0.0.1 - - [13/Sep/2023 14:06:46] "[36mGET /static/green-tick.png HTTP/1.1[0m" 304 -
+2023-09-13 14:06:54,682 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2023-09-13 14:06:55,154 DEBUG : https://api.trello.com:443 "GET /1/boards/64ae6f476f946f8c451a5cb2/lists?key=7d069c46c188afd7a7eaeb18851b9fac&token=ATTAcff8cd91ef9d8108a296d4954de006c36a5f27507477246e8cd87d76edbdf881F66B1476&cards=open&card_fields=name%2CidList HTTP/1.1" 200 1342
+2023-09-13 14:06:55,158 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2023-09-13 14:06:55,966 DEBUG : https://api.trello.com:443 "DELETE /1/cards/6501b3d42fe5c57553d5af00?key=7d069c46c188afd7a7eaeb18851b9fac&token=ATTAcff8cd91ef9d8108a296d4954de006c36a5f27507477246e8cd87d76edbdf881F66B1476 HTTP/1.1" 200 13
+2023-09-13 14:06:55,967 INFO : DEBUG
+  WHERE:    app.py del-item route 
+  WHAT:     del_trello_card 
+  VARNAME:  id 
+  TYPE:     <class 'str'> 
+  CONTENTS: 6501b3d42fe5c57553d5af00
+2023-09-13 14:06:55,968 INFO : 127.0.0.1 - - [13/Sep/2023 14:06:55] "[32mPOST /del-item HTTP/1.1[0m" 302 -
+2023-09-13 14:06:55,974 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2023-09-13 14:06:56,507 DEBUG : https://api.trello.com:443 "GET /1/boards/64ae6f476f946f8c451a5cb2/lists?key=7d069c46c188afd7a7eaeb18851b9fac&token=ATTAcff8cd91ef9d8108a296d4954de006c36a5f27507477246e8cd87d76edbdf881F66B1476&cards=open&card_fields=name%2CidList HTTP/1.1" 200 1254
+2023-09-13 14:06:56,509 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9]
+2023-09-13 14:06:56,509 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9]
+2023-09-13 14:06:56,509 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9]
+2023-09-13 14:06:56,509 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9, 64afab39aab99459189c53a8trello64ae6f476f946f8c451a5cba]
+2023-09-13 14:06:56,509 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9, 64afab39aab99459189c53a8trello64ae6f476f946f8c451a5cba, 6501aca0660851f5ff150d93another TODOOO item64ae6f476f946f8c451a5cba]
+2023-09-13 14:06:56,509 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9, 64afab39aab99459189c53a8trello64ae6f476f946f8c451a5cba, 6501aca0660851f5ff150d93another TODOOO item64ae6f476f946f8c451a5cba, 64e5dc4ad15e3be6e8f08f75another item to add64ae6f476f946f8c451a5cba]
+2023-09-13 14:06:56,509 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9, 64afab39aab99459189c53a8trello64ae6f476f946f8c451a5cba, 6501aca0660851f5ff150d93another TODOOO item64ae6f476f946f8c451a5cba, 64e5dc4ad15e3be6e8f08f75another item to add64ae6f476f946f8c451a5cba, 64afab7091a51e58ba073e94api key64ae6f476f946f8c451a5cbb]
+2023-09-13 14:06:56,509 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9, 64afab39aab99459189c53a8trello64ae6f476f946f8c451a5cba, 6501aca0660851f5ff150d93another TODOOO item64ae6f476f946f8c451a5cba, 64e5dc4ad15e3be6e8f08f75another item to add64ae6f476f946f8c451a5cba, 64afab7091a51e58ba073e94api key64ae6f476f946f8c451a5cbb, 64e49dcc1348172ad0b29d0dAdd a done item64ae6f476f946f8c451a5cbb]
+2023-09-13 14:06:56,510 INFO : 127.0.0.1 - - [13/Sep/2023 14:06:56] "GET / HTTP/1.1" 200 -
+2023-09-13 14:06:56,533 INFO : 127.0.0.1 - - [13/Sep/2023 14:06:56] "[36mGET /static/LM.png HTTP/1.1[0m" 304 -
+2023-09-13 14:06:56,533 INFO : 127.0.0.1 - - [13/Sep/2023 14:06:56] "[36mGET /static/green-tick.png HTTP/1.1[0m" 304 -
+2023-09-13 14:07:09,816 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-09-13 14:07:09,854 INFO :  * Restarting with stat
+2023-09-13 14:07:10,257 INFO : DEBUG ON - level 2
+2023-09-13 14:07:10,350 WARNING :  * Debugger is active!
+2023-09-13 14:07:10,354 INFO :  * Debugger PIN: 131-473-301
+2023-09-13 14:07:29,942 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-09-13 14:07:29,986 INFO :  * Restarting with stat
+2023-09-13 14:07:30,344 INFO : DEBUG ON - level 2
+2023-09-13 14:07:30,426 WARNING :  * Debugger is active!
+2023-09-13 14:07:30,432 INFO :  * Debugger PIN: 631-081-675
+2023-09-13 14:07:32,520 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-09-13 14:07:32,552 INFO :  * Restarting with stat
+2023-09-13 14:07:32,869 INFO : DEBUG ON - level 2
+2023-09-13 14:07:32,951 WARNING :  * Debugger is active!
+2023-09-13 14:07:32,955 INFO :  * Debugger PIN: 131-473-301
+2023-09-13 14:08:04,842 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\debugger.py', reloading
+2023-09-13 14:08:04,912 INFO :  * Restarting with stat
+2023-09-13 14:08:05,237 INFO : DEBUG ON - level 2
+2023-09-13 14:08:05,246 WARNING :  * Debugger is active!
+2023-09-13 14:08:05,250 INFO :  * Debugger PIN: 631-081-675
+2023-09-13 14:08:18,533 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\debugger.py', reloading
+2023-09-13 14:08:18,569 INFO :  * Restarting with stat
+2023-09-13 14:08:18,899 INFO : DEBUG ON - level 2
+2023-09-13 14:08:18,907 WARNING :  * Debugger is active!
+2023-09-13 14:08:18,912 INFO :  * Debugger PIN: 631-081-675
+2023-09-13 14:08:24,048 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-09-13 14:08:24,083 INFO :  * Restarting with stat
+2023-09-13 14:08:24,431 INFO : DEBUG ON - level 2
+2023-09-13 14:08:24,440 WARNING :  * Debugger is active!
+2023-09-13 14:08:24,444 INFO :  * Debugger PIN: 631-081-675
+2023-09-13 14:09:05,314 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-09-13 14:09:05,345 INFO :  * Restarting with stat
+2023-09-13 14:09:05,675 INFO : DEBUG ON - level 2
+2023-09-13 14:09:05,686 WARNING :  * Debugger is active!
+2023-09-13 14:09:05,691 INFO :  * Debugger PIN: 631-081-675
+2023-09-13 14:09:08,778 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-09-13 14:09:08,837 INFO :  * Restarting with stat
+2023-09-13 14:09:09,157 INFO : DEBUG ON - level 2
+2023-09-13 14:09:09,167 WARNING :  * Debugger is active!
+2023-09-13 14:09:09,171 INFO :  * Debugger PIN: 631-081-675
+2023-09-13 14:09:18,399 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-09-13 14:09:18,435 INFO :  * Restarting with stat
+2023-09-13 14:09:18,764 INFO : DEBUG ON - level 2
+2023-09-13 14:09:18,771 WARNING :  * Debugger is active!
+2023-09-13 14:09:18,775 INFO :  * Debugger PIN: 631-081-675
+2023-09-13 14:09:31,052 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\debugger.py', reloading
+2023-09-13 14:09:31,091 INFO :  * Restarting with stat
+2023-09-13 14:09:31,431 INFO : DEBUG ON - level 2
+2023-09-13 14:09:31,438 WARNING :  * Debugger is active!
+2023-09-13 14:09:31,443 INFO :  * Debugger PIN: 631-081-675
+2023-09-13 14:09:34,531 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\debugger.py', reloading
+2023-09-13 14:09:34,565 INFO :  * Restarting with stat
+2023-09-13 14:09:34,872 INFO : DEBUG ON - level 2
+2023-09-13 14:09:34,880 WARNING :  * Debugger is active!
+2023-09-13 14:09:34,884 INFO :  * Debugger PIN: 631-081-675
+2023-09-13 14:09:44,094 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\tests\\test_app.py', reloading
+2023-09-13 14:09:44,146 INFO :  * Restarting with stat
+2023-09-13 14:09:44,661 INFO : DEBUG ON - level 2
+2023-09-13 14:09:44,669 WARNING :  * Debugger is active!
+2023-09-13 14:09:44,673 INFO :  * Debugger PIN: 631-081-675
+2023-09-13 14:09:45,727 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\tests\\test_app.py', reloading
+2023-09-13 14:09:45,783 INFO :  * Restarting with stat
+2023-09-13 14:09:46,228 INFO : DEBUG ON - level 2
+2023-09-13 14:09:46,237 WARNING :  * Debugger is active!
+2023-09-13 14:09:46,241 INFO :  * Debugger PIN: 631-081-675
+2023-09-13 14:09:47,295 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\tests\\test_app.py', reloading
+2023-09-13 14:09:47,331 INFO :  * Restarting with stat
+2023-09-13 14:09:47,709 INFO : DEBUG ON - level 2
+2023-09-13 14:09:47,719 WARNING :  * Debugger is active!
+2023-09-13 14:09:47,723 INFO :  * Debugger PIN: 631-081-675
+2023-09-13 14:10:00,003 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-09-13 14:10:00,045 INFO :  * Restarting with stat
+2023-09-13 14:10:00,388 INFO : DEBUG ON - level 2
+2023-09-13 14:10:00,399 WARNING :  * Debugger is active!
+2023-09-13 14:10:00,404 INFO :  * Debugger PIN: 631-081-675
+2023-09-13 14:10:03,501 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-09-13 14:10:03,533 INFO :  * Restarting with stat
+2023-09-13 14:10:03,843 INFO : DEBUG ON - level 2
+2023-09-13 14:10:03,850 WARNING :  * Debugger is active!
+2023-09-13 14:10:03,855 INFO :  * Debugger PIN: 631-081-675
+2023-09-13 14:10:05,923 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-09-13 14:10:05,964 INFO :  * Restarting with stat
+2023-09-13 14:10:06,343 INFO : DEBUG ON - level 2
+2023-09-13 14:10:06,351 WARNING :  * Debugger is active!
+2023-09-13 14:10:06,355 INFO :  * Debugger PIN: 631-081-675
+2023-09-13 14:10:09,440 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-09-13 14:10:09,502 INFO :  * Restarting with stat
+2023-09-13 14:10:09,890 INFO : DEBUG ON - level 2
+2023-09-13 14:10:09,901 WARNING :  * Debugger is active!
+2023-09-13 14:10:09,905 INFO :  * Debugger PIN: 631-081-675
+2023-09-13 14:10:10,957 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-09-13 14:10:10,983 INFO :  * Restarting with stat
+2023-09-13 14:10:11,310 INFO : DEBUG ON - level 2
+2023-09-13 14:10:11,333 WARNING :  * Debugger is active!
+2023-09-13 14:10:11,337 INFO :  * Debugger PIN: 631-081-675
+2023-09-13 14:10:13,412 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-09-13 14:10:13,452 INFO :  * Restarting with stat
+2023-09-13 14:10:13,849 INFO : DEBUG ON - level 2
+2023-09-13 14:10:13,857 WARNING :  * Debugger is active!
+2023-09-13 14:10:13,862 INFO :  * Debugger PIN: 631-081-675
+2023-09-13 14:10:15,925 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-09-13 14:10:15,961 INFO :  * Restarting with stat
+2023-09-13 14:10:16,338 INFO : DEBUG ON - level 2
+2023-09-13 14:10:16,347 WARNING :  * Debugger is active!
+2023-09-13 14:10:16,351 INFO :  * Debugger PIN: 631-081-675
+2023-09-13 14:10:21,487 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\app.py', reloading
+2023-09-13 14:10:21,551 INFO :  * Restarting with stat
+2023-09-13 14:10:21,945 INFO : DEBUG ON - level 2
+2023-09-13 14:10:21,956 WARNING :  * Debugger is active!
+2023-09-13 14:10:21,964 INFO :  * Debugger PIN: 631-081-675
+2023-09-13 14:11:16,114 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\data\\trello.py', reloading
+2023-09-13 14:11:16,164 INFO :  * Restarting with stat
+2023-09-13 14:11:16,493 INFO : DEBUG ON - level 2
+2023-09-13 14:11:16,502 WARNING :  * Debugger is active!
+2023-09-13 14:11:16,506 INFO :  * Debugger PIN: 631-081-675
+2023-09-13 14:11:20,614 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\data\\trello.py', reloading
+2023-09-13 14:11:20,651 INFO :  * Restarting with stat
+2023-09-13 14:11:20,989 INFO : DEBUG ON - level 2
+2023-09-13 14:11:20,998 WARNING :  * Debugger is active!
+2023-09-13 14:11:21,002 INFO :  * Debugger PIN: 631-081-675
+2023-09-13 14:11:23,068 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\data\\trello.py', reloading
+2023-09-13 14:11:23,104 INFO :  * Restarting with stat
+2023-09-13 14:11:23,440 INFO : DEBUG ON - level 2
+2023-09-13 14:11:23,448 WARNING :  * Debugger is active!
+2023-09-13 14:11:23,452 INFO :  * Debugger PIN: 631-081-675
+2023-09-13 14:11:25,519 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\data\\trello.py', reloading
+2023-09-13 14:11:25,546 INFO :  * Restarting with stat
+2023-09-13 14:11:25,855 INFO : DEBUG ON - level 2
+2023-09-13 14:11:25,864 WARNING :  * Debugger is active!
+2023-09-13 14:11:25,868 INFO :  * Debugger PIN: 631-081-675
+2023-09-13 14:12:41,503 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\tests\\test_view_model.py', reloading
+2023-09-13 14:12:41,553 INFO :  * Restarting with stat
+2023-09-13 14:12:41,885 INFO : DEBUG ON - level 2
+2023-09-13 14:12:41,897 WARNING :  * Debugger is active!
+2023-09-13 14:12:41,901 INFO :  * Debugger PIN: 631-081-675
+2023-09-13 14:12:43,972 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\tests\\test_view_model.py', reloading
+2023-09-13 14:12:44,000 INFO :  * Restarting with stat
+2023-09-13 14:12:44,360 INFO : DEBUG ON - level 2
+2023-09-13 14:12:44,368 WARNING :  * Debugger is active!
+2023-09-13 14:12:44,371 INFO :  * Debugger PIN: 631-081-675
+2023-09-13 14:12:45,420 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\tests\\test_view_model.py', reloading
+2023-09-13 14:12:45,453 INFO :  * Restarting with stat
+2023-09-13 14:12:45,801 INFO : DEBUG ON - level 2
+2023-09-13 14:12:45,809 WARNING :  * Debugger is active!
+2023-09-13 14:12:45,813 INFO :  * Debugger PIN: 631-081-675
+2023-09-13 14:12:46,862 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\tests\\test_view_model.py', reloading
+2023-09-13 14:12:46,892 INFO :  * Restarting with stat
+2023-09-13 14:12:47,223 INFO : DEBUG ON - level 2
+2023-09-13 14:12:47,236 WARNING :  * Debugger is active!
+2023-09-13 14:12:47,241 INFO :  * Debugger PIN: 631-081-675
+2023-09-13 14:12:48,301 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\tests\\test_view_model.py', reloading
+2023-09-13 14:12:48,332 INFO :  * Restarting with stat
+2023-09-13 14:12:48,663 INFO : DEBUG ON - level 2
+2023-09-13 14:12:48,671 WARNING :  * Debugger is active!
+2023-09-13 14:12:48,675 INFO :  * Debugger PIN: 631-081-675
+2023-09-13 14:12:53,802 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\tests\\test_view_model.py', reloading
+2023-09-13 14:12:53,847 INFO :  * Restarting with stat
+2023-09-13 14:12:54,240 INFO : DEBUG ON - level 2
+2023-09-13 14:12:54,249 WARNING :  * Debugger is active!
+2023-09-13 14:12:54,253 INFO :  * Debugger PIN: 631-081-675
+2023-09-13 14:12:55,317 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\tests\\test_view_model.py', reloading
+2023-09-13 14:12:55,352 INFO :  * Restarting with stat
+2023-09-13 14:12:55,759 INFO : DEBUG ON - level 2
+2023-09-13 14:12:55,767 WARNING :  * Debugger is active!
+2023-09-13 14:12:55,772 INFO :  * Debugger PIN: 631-081-675
+2023-09-13 14:12:56,843 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\tests\\test_view_model.py', reloading
+2023-09-13 14:12:56,901 INFO :  * Restarting with stat
+2023-09-13 14:12:57,230 INFO : DEBUG ON - level 2
+2023-09-13 14:12:57,237 WARNING :  * Debugger is active!
+2023-09-13 14:12:57,241 INFO :  * Debugger PIN: 631-081-675
+2023-09-13 14:13:03,397 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\tests\\test_view_model.py', reloading
+2023-09-13 14:13:03,458 INFO :  * Restarting with stat
+2023-09-13 14:13:03,806 INFO : DEBUG ON - level 2
+2023-09-13 14:13:03,814 WARNING :  * Debugger is active!
+2023-09-13 14:13:03,818 INFO :  * Debugger PIN: 631-081-675
+2023-09-13 14:13:04,864 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\tests\\test_view_model.py', reloading
+2023-09-13 14:13:04,893 INFO :  * Restarting with stat
+2023-09-13 14:13:05,239 INFO : DEBUG ON - level 2
+2023-09-13 14:13:05,252 WARNING :  * Debugger is active!
+2023-09-13 14:13:05,256 INFO :  * Debugger PIN: 631-081-675
+2023-09-13 14:13:06,311 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\tests\\test_view_model.py', reloading
+2023-09-13 14:13:06,338 INFO :  * Restarting with stat
+2023-09-13 14:13:06,663 INFO : DEBUG ON - level 2
+2023-09-13 14:13:06,670 WARNING :  * Debugger is active!
+2023-09-13 14:13:06,675 INFO :  * Debugger PIN: 631-081-675
+2023-09-13 14:13:07,726 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\tests\\test_view_model.py', reloading
+2023-09-13 14:13:07,752 INFO :  * Restarting with stat
+2023-09-13 14:13:08,075 INFO : DEBUG ON - level 2
+2023-09-13 14:13:08,083 WARNING :  * Debugger is active!
+2023-09-13 14:13:08,086 INFO :  * Debugger PIN: 631-081-675
+2023-09-13 14:13:11,173 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\tests\\test_view_model.py', reloading
+2023-09-13 14:13:11,225 INFO :  * Restarting with stat
+2023-09-13 14:13:11,713 INFO : DEBUG ON - level 2
+2023-09-13 14:13:11,724 WARNING :  * Debugger is active!
+2023-09-13 14:13:11,728 INFO :  * Debugger PIN: 631-081-675
+2023-09-13 14:13:35,247 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\ViewModelClass.py', reloading
+2023-09-13 14:13:35,281 INFO :  * Restarting with stat
+2023-09-13 14:13:35,604 INFO : DEBUG ON - level 2
+2023-09-13 14:13:35,691 WARNING :  * Debugger is active!
+2023-09-13 14:13:35,695 INFO :  * Debugger PIN: 131-473-301
+2023-09-13 14:13:44,987 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\ViewModelClass.py', reloading
+2023-09-13 14:13:45,033 INFO :  * Restarting with stat
+2023-09-13 14:13:45,852 INFO : DEBUG ON - level 2
+2023-09-13 14:13:45,962 WARNING :  * Debugger is active!
+2023-09-13 14:13:45,967 INFO :  * Debugger PIN: 131-473-301
+2023-09-13 14:14:28,181 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\ViewModelClass.py', reloading
+2023-09-13 14:14:28,228 INFO :  * Restarting with stat
+2023-09-13 14:14:28,566 INFO : DEBUG ON - level 2
+2023-09-13 14:14:28,653 WARNING :  * Debugger is active!
+2023-09-13 14:14:28,657 INFO :  * Debugger PIN: 131-473-301
+2023-09-13 14:14:48,284 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\ViewModelClass2.py', reloading
+2023-09-13 14:14:48,337 INFO :  * Restarting with stat
+2023-09-13 14:14:48,682 INFO : DEBUG ON - level 2
+2023-09-13 14:14:48,765 WARNING :  * Debugger is active!
+2023-09-13 14:14:48,769 INFO :  * Debugger PIN: 131-473-301
+2023-09-13 14:16:20,473 INFO :  * Detected change in 'C:\\temp\\devops\\projex\\DevOps-Course-Starter2\\todo_app\\debugger.py', reloading
+2023-09-13 14:16:20,512 INFO :  * Restarting with stat
+2023-09-13 14:16:20,840 INFO : DEBUG ON - level 2
+2023-09-13 14:16:20,921 WARNING :  * Debugger is active!
+2023-09-13 14:16:20,926 INFO :  * Debugger PIN: 131-473-301

@@ -2,7 +2,7 @@
 #from typing import Iterable
 
 from typing import Any
-from todo_app.debug import debug
+from todo_app.debugger import writelog
 
 class ViewModel:
     def __init__(self, items):
@@ -49,12 +49,12 @@ class ViewModel:
         #for item in self._items:
             #idList = item['idList']
             # print(f'in ViewModel.todo_items: item[`idList`] {idList}')
-            #debug(context, doing, 'self._items',self._items)    
-            #debug(context, doing, 'item', item) 
-            #debug(context, doing, 'item[`idList`]', item['idList']) 
-            #debug(context, doing, 'item.idList', item.idList) 
+            #writelog(context, doing, 'self._items',self._items)    
+            #writelog(context, doing, 'item', item) 
+            #writelog(context, doing, 'item[`idList`]', item['idList']) 
+            #writelog(context, doing, 'item.idList', item.idList) 
         #todo_items_list = [item for item in self._items if item['status'] == 'Todo' ]
-        #debug(context, doing, 'self._items',self._items)
+        #writelog(context, doing, 'self._items',self._items)
         todo_items_list = [item for item in self._items if item.idList == '64ae6f476f946f8c451a5cb9' ]
         return todo_items_list   
     
