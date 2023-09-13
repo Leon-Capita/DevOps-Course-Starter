@@ -5,13 +5,14 @@ from todo_app.flask_config import Config
 from todo_app.data.trello import get_trello_cards, add_trello_card, del_trello_card, get_trello_card_id_by_name, get_trello_card_by_name, upd_trello_card
 from todo_app.ItemClass import Item
 from todo_app.debug import debug
-#from todo_app.test_app import *
 
 ###Move debug logging out and simplify
 ###Would like an undo feature - keep details of previous action and be able to click undo 
 ###List of credits to tech used, eg flask, trello etc
 
-#def create_app():
+def test_func():
+    pass
+
 def create_app(debug=True):
     app = Flask(__name__)
     app.config.from_object(Config())
@@ -31,7 +32,7 @@ def create_app(debug=True):
             #debug(context, doing, 'item',item)
             #items.append(Item(id=item_id, name=item_name, status=item_list))
             items.append(Item(item['id'], item['name'], item['idList']))
-            debug(context, doing, 'items',items)
+            #debug(context, doing, 'items',items)
         item_view_model = ViewModel(items)
         #item_view_model = items
         return render_template('index.html', view_model=item_view_model)
@@ -85,5 +86,4 @@ def create_app(debug=True):
         upd_trello_card(item_id, item_title, item_status)
         return redirect('/')
 
-#app = create_app()
-
+    return app
