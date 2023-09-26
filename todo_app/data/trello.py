@@ -1,23 +1,25 @@
-from todo_app.data.config import TRELLO_BOARD_ID, TRELLO_APIKEY, TRELLO_TOKEN, TRELLO_TODO_ID, TRELLO_DOIN_ID, TRELLO_DONE_ID
-import requests
-import json
-debuglevel=2
+import requests, json, os
+from todo_app.debugger import writelog
+from dotenv import load_dotenv, find_dotenv
+
+file_path = find_dotenv('.env')
+load_dotenv(file_path, override=True)
+TRELLO_BOARD_ID = os.getenv('TRELLO_BOARD_ID')
+TRELLO_APIKEY = os.getenv('TRELLO_APIKEY')
+TRELLO_TOKEN = os.getenv('TRELLO_TOKEN') 
+TRELLO_TODO_ID = os.getenv('TRELLO_TODO_ID')  
 
 def get_trello_cards():
-    if debuglevel>1:print('=====================get_trello_lists')
-    url = "https://api.trello.com/1/boards/"+TRELLO_BOARD_ID+"/lists" #fields=all
+    url = ("https://api.trello.com/1/boards/"+TRELLO_BOARD_ID+"/lists") #fields=all
     #url = "https://api.trello.com/1/boards/"+TRELLO_BOARD_ID+"/lists?fields=id,name,shortUrl" #fields=all
-    if debuglevel>1:print (url)
     headers = { "Accept": "application/json" }
     query = { 'key': TRELLO_APIKEY,'token': TRELLO_TOKEN, "cards":"open", "card_fields":"name,idList" }
     response = requests.request("GET", url, headers=headers, params=query )
-    if debuglevel>1:print(response.json())
     resp = response.json()
 
     cards = []
     for list in resp:
         for card in list['cards']:
-            if debuglevel>0:print(f"card {card}")
             #card['listname']=list['name']
             cards.append(card)
     return cards

@@ -118,4 +118,6 @@ env/
 
 ### Configuration files ###
 .env
-data/config.py
+
+### Log files ###
+todo.log
