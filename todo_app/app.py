@@ -88,4 +88,3 @@ def create_app(debug=True):
 
     return app
 
-
