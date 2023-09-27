@@ -7,10 +7,6 @@ from todo_app.ItemClass import Item
 from dotenv import load_dotenv, find_dotenv
 import os
 
-#file_path = find_dotenv('tests/.env.test')     # test works!
-#file_path = find_dotenv('.env')                 # app works!
-#load_dotenv(file_path, override=True)
-
 class ViewModel:
     def __init__(self, items):
         self._items = items

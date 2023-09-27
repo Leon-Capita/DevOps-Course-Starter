@@ -32,7 +32,6 @@ class StubResponse():
         return self.fake_response_data
 
 # Stub replacement for requests.get(url)
-#def stub(url, params={}, headers=None): #headers = { "Accept": "application/json" }
 def stub(method, url, params={}, headers=None): #headers = { "Accept": "application/json" }
     test_board_id = TRELLO_BOARD_ID
     context = 'test_app.py stub()'
@@ -51,9 +50,7 @@ def stub(method, url, params={}, headers=None): #headers = { "Accept": "applicat
 
 def test_index_page(monkeypatch, client):
     # Replace requests.get(url) with our own function
-    #monkeypatch.setattr(requests, 'get', stub)
     monkeypatch.setattr(requests, 'request', stub)
-    #monkeypatch.setattr(get_trello_cards, 'request', stub)
 
     # Make a request to our app's index page
     response = client.get('/')
