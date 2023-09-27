@@ -8,12 +8,8 @@ from dotenv import load_dotenv, find_dotenv
 import os
 
 #file_path = find_dotenv('tests/.env.test')     # test works!
-file_path = find_dotenv('.env')                 # app works!
-load_dotenv(file_path, override=True)
-
-TRELLO_TODO_ID = os.getenv('TRELLO_TODO_ID')
-TRELLO_DOIN_ID = os.getenv('TRELLO_DOIN_ID')
-TRELLO_DONE_ID = os.getenv('TRELLO_DONE_ID')
+#file_path = find_dotenv('.env')                 # app works!
+#load_dotenv(file_path, override=True)
 
 class ViewModel:
     def __init__(self, items):
@@ -28,6 +24,7 @@ class ViewModel:
     
     @property
     def todo_items(self):
+        TRELLO_TODO_ID = os.getenv('TRELLO_TODO_ID')
         context = 'ViewModelClass.py todo_items'
         doing = 'todo_items'
         todo_items_list = [item for item in self._items if item.idList == TRELLO_TODO_ID ]
@@ -35,6 +32,7 @@ class ViewModel:
     
     @property
     def doin_items(self):
+        TRELLO_DOIN_ID = os.getenv('TRELLO_DOIN_ID')
         context = 'ViewModelClass.py doin_items'
         doing = 'doin_items'
         doin_items_list = [item for item in self._items if item.idList == TRELLO_DOIN_ID ]
@@ -42,6 +40,7 @@ class ViewModel:
     
     @property
     def done_items(self):
+        TRELLO_DONE_ID = os.getenv('TRELLO_DONE_ID')
         context = 'ViewModelClass.py done_items'
         doing = 'done_items'
         done_items_list = [item for item in self._items if item.idList == TRELLO_DONE_ID ]

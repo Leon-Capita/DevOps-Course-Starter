@@ -53,7 +53,7 @@ def test_index_page(monkeypatch, client):
     # Replace requests.get(url) with our own function
     #monkeypatch.setattr(requests, 'get', stub)
     monkeypatch.setattr(requests, 'request', stub)
-    monkeypatch.setattr(get_trello_cards, 'request', stub)
+    #monkeypatch.setattr(get_trello_cards, 'request', stub)
 
     # Make a request to our app's index page
     response = client.get('/')
