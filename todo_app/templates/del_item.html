@@ -1,0 +1,16 @@
+<form action="/del-item" method="POST">
+    <div class="form">
+      <label for="title">Todo item title: </label>
+      <input type="text" name="title" id="title" required>
+    </div>
+  </form>
+  <div class="row">
+    <div class="col-md-12">
+      <h2>Items</h2>
+      <ul class="list-group mb-4">
+        <!-- List the todo items here -->
+        {% for item in items_list %}
+          <li>{{item.id}}: {{item.title}} {{item.status}}</li>
+        {% endfor %}
+      </ul>
+    </div>
