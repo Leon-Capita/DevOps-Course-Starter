@@ -88,3 +88,13 @@ You should see output similar to the following:
     todo_app\tests\test_view_model.py .                                                                                                                                                                      [100%] 
 
     ============================ 1 passed, 2 deselected in 0.03s ============================ 
+
+## Provision in cloud using Ansible 
+
+Populate inventory list of IPs of managed nodes to provision:
+
+    ec2-user@ControlNode:/home/ec2-user $ vim .ansible/inventory.ini
+
+Command to provision a VM from an Ansible Control Node
+
+    ec2-user@ControlNode:/home/ec2-user $ ansible-playbook .ansible/playbook2.yaml -i .ansible/inventory.ini
