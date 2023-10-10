@@ -20372,3 +20372,365 @@ DEBUG WHERE:app.py index route
 2023-09-26 13:52:14,834 INFO : 127.0.0.1 - - [26/Sep/2023 13:52:14] "GET / HTTP/1.1" 200 -
 2023-09-26 13:52:14,859 INFO : 127.0.0.1 - - [26/Sep/2023 13:52:14] "[36mGET /static/LM.png HTTP/1.1[0m" 304 -
 2023-09-26 13:52:14,861 INFO : 127.0.0.1 - - [26/Sep/2023 13:52:14] "[36mGET /static/green-tick.png HTTP/1.1[0m" 304 -
+2023-09-27 16:29:37,381 INFO : DEBUG ON - level 2
+2023-09-27 16:29:37,474 INFO : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-09-27 16:29:37,474 INFO : [33mPress CTRL+C to quit[0m
+2023-09-27 16:29:37,475 INFO :  * Restarting with stat
+2023-09-27 16:29:37,768 INFO : DEBUG ON - level 2
+2023-09-27 16:29:37,842 WARNING :  * Debugger is active!
+2023-09-27 16:29:37,849 INFO :  * Debugger PIN: 131-473-301
+2023-09-27 16:29:52,027 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2023-09-27 16:29:52,515 DEBUG : https://api.trello.com:443 "GET /1/boards/64ae6f476f946f8c451a5cb2/lists?key=7d069c46c188afd7a7eaeb18851b9fac&token=ATTAcff8cd91ef9d8108a296d4954de006c36a5f27507477246e8cd87d76edbdf881F66B1476&cards=open&card_fields=name%2CidList HTTP/1.1" 200 1449
+2023-09-27 16:29:52,522 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     trello_cards 
+  VARNAME:  trello_items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [{'id': '64afab436f44a8cb39b7f8c2', 'name': 'integrate', 'idList': '64ae6f476f946f8c451a5cb9'}, {'id': '64afab48cf5fce0d1f77a10d', 'name': 'experiment', 'idList': '64ae6f476f946f8c451a5cb9'}, {'id': '6501adafec362d7adea3d11c', 'name': 'my todo task', 'idList': '64ae6f476f946f8c451a5cb9'}, {'id': '64afab39aab99459189c53a8', 'name': 'trello', 'idList': '64ae6f476f946f8c451a5cba'}, {'id': '6501aca0660851f5ff150d93', 'name': 'another TODOOO item', 'idList': '64ae6f476f946f8c451a5cba'}, {'id': '64e5dc4ad15e3be6e8f08f75', 'name': 'another item to add', 'idList': '64ae6f476f946f8c451a5cba'}, {'id': '6511a35eb539a8df5e035b60', 'name': 'some random', 'idList': '64ae6f476f946f8c451a5cba'}, {'id': '64afab7091a51e58ba073e94', 'name': 'api key', 'idList': '64ae6f476f946f8c451a5cbb'}, {'id': '65119afd1e2a08f976bf8f7c', 'name': 'adding a whole new item2', 'idList': '64ae6f476f946f8c451a5cbb'}, {'id': '64e49dcc1348172ad0b29d0d', 'name': 'Add a done item', 'idList': '64ae6f476f946f8c451a5cbb'}]
+2023-09-27 16:29:52,523 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: []
+2023-09-27 16:29:52,524 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9]
+2023-09-27 16:29:52,525 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9]
+2023-09-27 16:29:52,527 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9]
+2023-09-27 16:29:52,528 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9, 64afab39aab99459189c53a8trello64ae6f476f946f8c451a5cba]
+2023-09-27 16:29:52,530 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9, 64afab39aab99459189c53a8trello64ae6f476f946f8c451a5cba, 6501aca0660851f5ff150d93another TODOOO item64ae6f476f946f8c451a5cba]
+2023-09-27 16:29:52,532 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9, 64afab39aab99459189c53a8trello64ae6f476f946f8c451a5cba, 6501aca0660851f5ff150d93another TODOOO item64ae6f476f946f8c451a5cba, 64e5dc4ad15e3be6e8f08f75another item to add64ae6f476f946f8c451a5cba]
+2023-09-27 16:29:52,533 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9, 64afab39aab99459189c53a8trello64ae6f476f946f8c451a5cba, 6501aca0660851f5ff150d93another TODOOO item64ae6f476f946f8c451a5cba, 64e5dc4ad15e3be6e8f08f75another item to add64ae6f476f946f8c451a5cba, 6511a35eb539a8df5e035b60some random64ae6f476f946f8c451a5cba]
+2023-09-27 16:29:52,534 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9, 64afab39aab99459189c53a8trello64ae6f476f946f8c451a5cba, 6501aca0660851f5ff150d93another TODOOO item64ae6f476f946f8c451a5cba, 64e5dc4ad15e3be6e8f08f75another item to add64ae6f476f946f8c451a5cba, 6511a35eb539a8df5e035b60some random64ae6f476f946f8c451a5cba, 64afab7091a51e58ba073e94api key64ae6f476f946f8c451a5cbb]
+2023-09-27 16:29:52,536 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9, 64afab39aab99459189c53a8trello64ae6f476f946f8c451a5cba, 6501aca0660851f5ff150d93another TODOOO item64ae6f476f946f8c451a5cba, 64e5dc4ad15e3be6e8f08f75another item to add64ae6f476f946f8c451a5cba, 6511a35eb539a8df5e035b60some random64ae6f476f946f8c451a5cba, 64afab7091a51e58ba073e94api key64ae6f476f946f8c451a5cbb, 65119afd1e2a08f976bf8f7cadding a whole new item264ae6f476f946f8c451a5cbb]
+2023-09-27 16:29:52,538 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9, 64afab39aab99459189c53a8trello64ae6f476f946f8c451a5cba, 6501aca0660851f5ff150d93another TODOOO item64ae6f476f946f8c451a5cba, 64e5dc4ad15e3be6e8f08f75another item to add64ae6f476f946f8c451a5cba, 6511a35eb539a8df5e035b60some random64ae6f476f946f8c451a5cba, 64afab7091a51e58ba073e94api key64ae6f476f946f8c451a5cbb, 65119afd1e2a08f976bf8f7cadding a whole new item264ae6f476f946f8c451a5cbb, 64e49dcc1348172ad0b29d0dAdd a done item64ae6f476f946f8c451a5cbb]
+2023-09-27 16:29:52,590 INFO : 127.0.0.1 - - [27/Sep/2023 16:29:52] "GET / HTTP/1.1" 200 -
+2023-09-27 16:29:52,673 INFO : 127.0.0.1 - - [27/Sep/2023 16:29:52] "[36mGET /static/LM.png HTTP/1.1[0m" 304 -
+2023-09-27 16:29:52,710 INFO : 127.0.0.1 - - [27/Sep/2023 16:29:52] "[36mGET /static/green-tick.png HTTP/1.1[0m" 304 -
+2023-09-27 16:29:52,807 INFO : 127.0.0.1 - - [27/Sep/2023 16:29:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-09-27 16:30:06,377 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2023-09-27 16:30:06,960 DEBUG : https://api.trello.com:443 "POST /1/cards?idList=64ae6f476f946f8c451a5cb9&key=7d069c46c188afd7a7eaeb18851b9fac&token=ATTAcff8cd91ef9d8108a296d4954de006c36a5f27507477246e8cd87d76edbdf881F66B1476&name=adding+M3+tester HTTP/1.1" 200 1136
+2023-09-27 16:30:06,983 INFO : DEBUG
+  WHERE:    app.py add-item route 
+  WHAT:     add_trello_card 
+  VARNAME:  item_title 
+  TYPE:     <class 'str'> 
+  CONTENTS: adding M3 tester
+2023-09-27 16:30:06,983 INFO : 127.0.0.1 - - [27/Sep/2023 16:30:06] "[32mPOST /add-item HTTP/1.1[0m" 302 -
+2023-09-27 16:30:06,995 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2023-09-27 16:30:08,405 DEBUG : https://api.trello.com:443 "GET /1/boards/64ae6f476f946f8c451a5cb2/lists?key=7d069c46c188afd7a7eaeb18851b9fac&token=ATTAcff8cd91ef9d8108a296d4954de006c36a5f27507477246e8cd87d76edbdf881F66B1476&cards=open&card_fields=name%2CidList HTTP/1.1" 200 1545
+2023-09-27 16:30:08,412 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     trello_cards 
+  VARNAME:  trello_items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [{'id': '64afab436f44a8cb39b7f8c2', 'name': 'integrate', 'idList': '64ae6f476f946f8c451a5cb9'}, {'id': '64afab48cf5fce0d1f77a10d', 'name': 'experiment', 'idList': '64ae6f476f946f8c451a5cb9'}, {'id': '6501adafec362d7adea3d11c', 'name': 'my todo task', 'idList': '64ae6f476f946f8c451a5cb9'}, {'id': '65144a7fdd2db69ecc7e0cc7', 'name': 'adding M3 tester', 'idList': '64ae6f476f946f8c451a5cb9'}, {'id': '64afab39aab99459189c53a8', 'name': 'trello', 'idList': '64ae6f476f946f8c451a5cba'}, {'id': '6501aca0660851f5ff150d93', 'name': 'another TODOOO item', 'idList': '64ae6f476f946f8c451a5cba'}, {'id': '64e5dc4ad15e3be6e8f08f75', 'name': 'another item to add', 'idList': '64ae6f476f946f8c451a5cba'}, {'id': '6511a35eb539a8df5e035b60', 'name': 'some random', 'idList': '64ae6f476f946f8c451a5cba'}, {'id': '64afab7091a51e58ba073e94', 'name': 'api key', 'idList': '64ae6f476f946f8c451a5cbb'}, {'id': '65119afd1e2a08f976bf8f7c', 'name': 'adding a whole new item2', 'idList': '64ae6f476f946f8c451a5cbb'}, {'id': '64e49dcc1348172ad0b29d0d', 'name': 'Add a done item', 'idList': '64ae6f476f946f8c451a5cbb'}]
+2023-09-27 16:30:08,414 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: []
+2023-09-27 16:30:08,417 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9]
+2023-09-27 16:30:08,419 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9]
+2023-09-27 16:30:08,421 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9]
+2023-09-27 16:30:08,423 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9, 65144a7fdd2db69ecc7e0cc7adding M3 tester64ae6f476f946f8c451a5cb9]
+2023-09-27 16:30:08,425 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9, 65144a7fdd2db69ecc7e0cc7adding M3 tester64ae6f476f946f8c451a5cb9, 64afab39aab99459189c53a8trello64ae6f476f946f8c451a5cba]
+2023-09-27 16:30:08,426 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9, 65144a7fdd2db69ecc7e0cc7adding M3 tester64ae6f476f946f8c451a5cb9, 64afab39aab99459189c53a8trello64ae6f476f946f8c451a5cba, 6501aca0660851f5ff150d93another TODOOO item64ae6f476f946f8c451a5cba]
+2023-09-27 16:30:08,428 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9, 65144a7fdd2db69ecc7e0cc7adding M3 tester64ae6f476f946f8c451a5cb9, 64afab39aab99459189c53a8trello64ae6f476f946f8c451a5cba, 6501aca0660851f5ff150d93another TODOOO item64ae6f476f946f8c451a5cba, 64e5dc4ad15e3be6e8f08f75another item to add64ae6f476f946f8c451a5cba]
+2023-09-27 16:30:08,430 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9, 65144a7fdd2db69ecc7e0cc7adding M3 tester64ae6f476f946f8c451a5cb9, 64afab39aab99459189c53a8trello64ae6f476f946f8c451a5cba, 6501aca0660851f5ff150d93another TODOOO item64ae6f476f946f8c451a5cba, 64e5dc4ad15e3be6e8f08f75another item to add64ae6f476f946f8c451a5cba, 6511a35eb539a8df5e035b60some random64ae6f476f946f8c451a5cba]
+2023-09-27 16:30:08,432 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9, 65144a7fdd2db69ecc7e0cc7adding M3 tester64ae6f476f946f8c451a5cb9, 64afab39aab99459189c53a8trello64ae6f476f946f8c451a5cba, 6501aca0660851f5ff150d93another TODOOO item64ae6f476f946f8c451a5cba, 64e5dc4ad15e3be6e8f08f75another item to add64ae6f476f946f8c451a5cba, 6511a35eb539a8df5e035b60some random64ae6f476f946f8c451a5cba, 64afab7091a51e58ba073e94api key64ae6f476f946f8c451a5cbb]
+2023-09-27 16:30:08,432 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9, 65144a7fdd2db69ecc7e0cc7adding M3 tester64ae6f476f946f8c451a5cb9, 64afab39aab99459189c53a8trello64ae6f476f946f8c451a5cba, 6501aca0660851f5ff150d93another TODOOO item64ae6f476f946f8c451a5cba, 64e5dc4ad15e3be6e8f08f75another item to add64ae6f476f946f8c451a5cba, 6511a35eb539a8df5e035b60some random64ae6f476f946f8c451a5cba, 64afab7091a51e58ba073e94api key64ae6f476f946f8c451a5cbb, 65119afd1e2a08f976bf8f7cadding a whole new item264ae6f476f946f8c451a5cbb]
+2023-09-27 16:30:08,432 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9, 65144a7fdd2db69ecc7e0cc7adding M3 tester64ae6f476f946f8c451a5cb9, 64afab39aab99459189c53a8trello64ae6f476f946f8c451a5cba, 6501aca0660851f5ff150d93another TODOOO item64ae6f476f946f8c451a5cba, 64e5dc4ad15e3be6e8f08f75another item to add64ae6f476f946f8c451a5cba, 6511a35eb539a8df5e035b60some random64ae6f476f946f8c451a5cba, 64afab7091a51e58ba073e94api key64ae6f476f946f8c451a5cbb, 65119afd1e2a08f976bf8f7cadding a whole new item264ae6f476f946f8c451a5cbb, 64e49dcc1348172ad0b29d0dAdd a done item64ae6f476f946f8c451a5cbb]
+2023-09-27 16:30:08,432 INFO : 127.0.0.1 - - [27/Sep/2023 16:30:08] "GET / HTTP/1.1" 200 -
+2023-09-27 16:30:08,471 INFO : 127.0.0.1 - - [27/Sep/2023 16:30:08] "[36mGET /static/LM.png HTTP/1.1[0m" 304 -
+2023-09-27 16:30:08,472 INFO : 127.0.0.1 - - [27/Sep/2023 16:30:08] "[36mGET /static/green-tick.png HTTP/1.1[0m" 304 -
+2023-09-27 16:31:39,662 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2023-09-27 16:31:40,109 DEBUG : https://api.trello.com:443 "GET /1/boards/64ae6f476f946f8c451a5cb2/lists?key=7d069c46c188afd7a7eaeb18851b9fac&token=ATTAcff8cd91ef9d8108a296d4954de006c36a5f27507477246e8cd87d76edbdf881F66B1476&cards=open&card_fields=name%2CidList HTTP/1.1" 200 1545
+2023-09-27 16:31:40,111 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2023-09-27 16:31:40,595 DEBUG : https://api.trello.com:443 "GET /1/boards/64ae6f476f946f8c451a5cb2/lists?key=7d069c46c188afd7a7eaeb18851b9fac&token=ATTAcff8cd91ef9d8108a296d4954de006c36a5f27507477246e8cd87d76edbdf881F66B1476&cards=open&card_fields=name%2CidList HTTP/1.1" 200 1545
+2023-09-27 16:31:40,595 INFO : DEBUG
+  WHERE:    app.py upd-item route 
+  WHAT:     upd_trello_card 
+  VARNAME:  item 
+  TYPE:     <class 'dict'> 
+  CONTENTS: {'id': '65144a7fdd2db69ecc7e0cc7', 'idList': '64ae6f476f946f8c451a5cba', 'name': 'adding M3 tester2'}
+2023-09-27 16:31:40,595 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2023-09-27 16:31:41,262 DEBUG : https://api.trello.com:443 "PUT /1/cards/65144a7fdd2db69ecc7e0cc7?key=7d069c46c188afd7a7eaeb18851b9fac&token=ATTAcff8cd91ef9d8108a296d4954de006c36a5f27507477246e8cd87d76edbdf881F66B1476&name=adding+M3+tester2&idList=64ae6f476f946f8c451a5cba HTTP/1.1" 200 1095
+2023-09-27 16:31:41,264 INFO : 127.0.0.1 - - [27/Sep/2023 16:31:41] "[32mPOST /upd-item HTTP/1.1[0m" 302 -
+2023-09-27 16:31:41,269 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2023-09-27 16:31:42,844 DEBUG : https://api.trello.com:443 "GET /1/boards/64ae6f476f946f8c451a5cb2/lists?key=7d069c46c188afd7a7eaeb18851b9fac&token=ATTAcff8cd91ef9d8108a296d4954de006c36a5f27507477246e8cd87d76edbdf881F66B1476&cards=open&card_fields=name%2CidList HTTP/1.1" 200 1546
+2023-09-27 16:31:42,848 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     trello_cards 
+  VARNAME:  trello_items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [{'id': '64afab436f44a8cb39b7f8c2', 'name': 'integrate', 'idList': '64ae6f476f946f8c451a5cb9'}, {'id': '64afab48cf5fce0d1f77a10d', 'name': 'experiment', 'idList': '64ae6f476f946f8c451a5cb9'}, {'id': '6501adafec362d7adea3d11c', 'name': 'my todo task', 'idList': '64ae6f476f946f8c451a5cb9'}, {'id': '64afab39aab99459189c53a8', 'name': 'trello', 'idList': '64ae6f476f946f8c451a5cba'}, {'id': '6501aca0660851f5ff150d93', 'name': 'another TODOOO item', 'idList': '64ae6f476f946f8c451a5cba'}, {'id': '65144a7fdd2db69ecc7e0cc7', 'name': 'adding M3 tester2', 'idList': '64ae6f476f946f8c451a5cba'}, {'id': '64e5dc4ad15e3be6e8f08f75', 'name': 'another item to add', 'idList': '64ae6f476f946f8c451a5cba'}, {'id': '6511a35eb539a8df5e035b60', 'name': 'some random', 'idList': '64ae6f476f946f8c451a5cba'}, {'id': '64afab7091a51e58ba073e94', 'name': 'api key', 'idList': '64ae6f476f946f8c451a5cbb'}, {'id': '65119afd1e2a08f976bf8f7c', 'name': 'adding a whole new item2', 'idList': '64ae6f476f946f8c451a5cbb'}, {'id': '64e49dcc1348172ad0b29d0d', 'name': 'Add a done item', 'idList': '64ae6f476f946f8c451a5cbb'}]
+2023-09-27 16:31:42,850 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: []
+2023-09-27 16:31:42,851 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9]
+2023-09-27 16:31:42,853 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9]
+2023-09-27 16:31:42,854 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9]
+2023-09-27 16:31:42,855 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9, 64afab39aab99459189c53a8trello64ae6f476f946f8c451a5cba]
+2023-09-27 16:31:42,856 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9, 64afab39aab99459189c53a8trello64ae6f476f946f8c451a5cba, 6501aca0660851f5ff150d93another TODOOO item64ae6f476f946f8c451a5cba]
+2023-09-27 16:31:42,856 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9, 64afab39aab99459189c53a8trello64ae6f476f946f8c451a5cba, 6501aca0660851f5ff150d93another TODOOO item64ae6f476f946f8c451a5cba, 65144a7fdd2db69ecc7e0cc7adding M3 tester264ae6f476f946f8c451a5cba]
+2023-09-27 16:31:42,858 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9, 64afab39aab99459189c53a8trello64ae6f476f946f8c451a5cba, 6501aca0660851f5ff150d93another TODOOO item64ae6f476f946f8c451a5cba, 65144a7fdd2db69ecc7e0cc7adding M3 tester264ae6f476f946f8c451a5cba, 64e5dc4ad15e3be6e8f08f75another item to add64ae6f476f946f8c451a5cba]
+2023-09-27 16:31:42,859 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9, 64afab39aab99459189c53a8trello64ae6f476f946f8c451a5cba, 6501aca0660851f5ff150d93another TODOOO item64ae6f476f946f8c451a5cba, 65144a7fdd2db69ecc7e0cc7adding M3 tester264ae6f476f946f8c451a5cba, 64e5dc4ad15e3be6e8f08f75another item to add64ae6f476f946f8c451a5cba, 6511a35eb539a8df5e035b60some random64ae6f476f946f8c451a5cba]
+2023-09-27 16:31:42,860 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9, 64afab39aab99459189c53a8trello64ae6f476f946f8c451a5cba, 6501aca0660851f5ff150d93another TODOOO item64ae6f476f946f8c451a5cba, 65144a7fdd2db69ecc7e0cc7adding M3 tester264ae6f476f946f8c451a5cba, 64e5dc4ad15e3be6e8f08f75another item to add64ae6f476f946f8c451a5cba, 6511a35eb539a8df5e035b60some random64ae6f476f946f8c451a5cba, 64afab7091a51e58ba073e94api key64ae6f476f946f8c451a5cbb]
+2023-09-27 16:31:42,861 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9, 64afab39aab99459189c53a8trello64ae6f476f946f8c451a5cba, 6501aca0660851f5ff150d93another TODOOO item64ae6f476f946f8c451a5cba, 65144a7fdd2db69ecc7e0cc7adding M3 tester264ae6f476f946f8c451a5cba, 64e5dc4ad15e3be6e8f08f75another item to add64ae6f476f946f8c451a5cba, 6511a35eb539a8df5e035b60some random64ae6f476f946f8c451a5cba, 64afab7091a51e58ba073e94api key64ae6f476f946f8c451a5cbb, 65119afd1e2a08f976bf8f7cadding a whole new item264ae6f476f946f8c451a5cbb]
+2023-09-27 16:31:42,862 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9, 64afab39aab99459189c53a8trello64ae6f476f946f8c451a5cba, 6501aca0660851f5ff150d93another TODOOO item64ae6f476f946f8c451a5cba, 65144a7fdd2db69ecc7e0cc7adding M3 tester264ae6f476f946f8c451a5cba, 64e5dc4ad15e3be6e8f08f75another item to add64ae6f476f946f8c451a5cba, 6511a35eb539a8df5e035b60some random64ae6f476f946f8c451a5cba, 64afab7091a51e58ba073e94api key64ae6f476f946f8c451a5cbb, 65119afd1e2a08f976bf8f7cadding a whole new item264ae6f476f946f8c451a5cbb, 64e49dcc1348172ad0b29d0dAdd a done item64ae6f476f946f8c451a5cbb]
+2023-09-27 16:31:42,864 INFO : 127.0.0.1 - - [27/Sep/2023 16:31:42] "GET / HTTP/1.1" 200 -
+2023-09-27 16:31:42,906 INFO : 127.0.0.1 - - [27/Sep/2023 16:31:42] "[36mGET /static/LM.png HTTP/1.1[0m" 304 -
+2023-09-27 16:31:42,906 INFO : 127.0.0.1 - - [27/Sep/2023 16:31:42] "[36mGET /static/green-tick.png HTTP/1.1[0m" 304 -
+2023-09-27 16:31:49,997 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2023-09-27 16:31:50,427 DEBUG : https://api.trello.com:443 "GET /1/boards/64ae6f476f946f8c451a5cb2/lists?key=7d069c46c188afd7a7eaeb18851b9fac&token=ATTAcff8cd91ef9d8108a296d4954de006c36a5f27507477246e8cd87d76edbdf881F66B1476&cards=open&card_fields=name%2CidList HTTP/1.1" 200 1546
+2023-09-27 16:31:50,428 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2023-09-27 16:31:51,208 DEBUG : https://api.trello.com:443 "DELETE /1/cards/65144a7fdd2db69ecc7e0cc7?key=7d069c46c188afd7a7eaeb18851b9fac&token=ATTAcff8cd91ef9d8108a296d4954de006c36a5f27507477246e8cd87d76edbdf881F66B1476 HTTP/1.1" 200 13
+2023-09-27 16:31:51,210 INFO : DEBUG
+  WHERE:    app.py del-item route 
+  WHAT:     del_trello_card 
+  VARNAME:  id 
+  TYPE:     <class 'str'> 
+  CONTENTS: 65144a7fdd2db69ecc7e0cc7
+2023-09-27 16:31:51,210 INFO : 127.0.0.1 - - [27/Sep/2023 16:31:51] "[32mPOST /del-item HTTP/1.1[0m" 302 -
+2023-09-27 16:31:51,223 DEBUG : Starting new HTTPS connection (1): api.trello.com:443
+2023-09-27 16:31:51,730 DEBUG : https://api.trello.com:443 "GET /1/boards/64ae6f476f946f8c451a5cb2/lists?key=7d069c46c188afd7a7eaeb18851b9fac&token=ATTAcff8cd91ef9d8108a296d4954de006c36a5f27507477246e8cd87d76edbdf881F66B1476&cards=open&card_fields=name%2CidList HTTP/1.1" 200 1449
+2023-09-27 16:31:51,730 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     trello_cards 
+  VARNAME:  trello_items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [{'id': '64afab436f44a8cb39b7f8c2', 'name': 'integrate', 'idList': '64ae6f476f946f8c451a5cb9'}, {'id': '64afab48cf5fce0d1f77a10d', 'name': 'experiment', 'idList': '64ae6f476f946f8c451a5cb9'}, {'id': '6501adafec362d7adea3d11c', 'name': 'my todo task', 'idList': '64ae6f476f946f8c451a5cb9'}, {'id': '64afab39aab99459189c53a8', 'name': 'trello', 'idList': '64ae6f476f946f8c451a5cba'}, {'id': '6501aca0660851f5ff150d93', 'name': 'another TODOOO item', 'idList': '64ae6f476f946f8c451a5cba'}, {'id': '64e5dc4ad15e3be6e8f08f75', 'name': 'another item to add', 'idList': '64ae6f476f946f8c451a5cba'}, {'id': '6511a35eb539a8df5e035b60', 'name': 'some random', 'idList': '64ae6f476f946f8c451a5cba'}, {'id': '64afab7091a51e58ba073e94', 'name': 'api key', 'idList': '64ae6f476f946f8c451a5cbb'}, {'id': '65119afd1e2a08f976bf8f7c', 'name': 'adding a whole new item2', 'idList': '64ae6f476f946f8c451a5cbb'}, {'id': '64e49dcc1348172ad0b29d0d', 'name': 'Add a done item', 'idList': '64ae6f476f946f8c451a5cbb'}]
+2023-09-27 16:31:51,745 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: []
+2023-09-27 16:31:51,746 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9]
+2023-09-27 16:31:51,747 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9]
+2023-09-27 16:31:51,748 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9]
+2023-09-27 16:31:51,749 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9, 64afab39aab99459189c53a8trello64ae6f476f946f8c451a5cba]
+2023-09-27 16:31:51,751 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9, 64afab39aab99459189c53a8trello64ae6f476f946f8c451a5cba, 6501aca0660851f5ff150d93another TODOOO item64ae6f476f946f8c451a5cba]
+2023-09-27 16:31:51,751 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9, 64afab39aab99459189c53a8trello64ae6f476f946f8c451a5cba, 6501aca0660851f5ff150d93another TODOOO item64ae6f476f946f8c451a5cba, 64e5dc4ad15e3be6e8f08f75another item to add64ae6f476f946f8c451a5cba]
+2023-09-27 16:31:51,751 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9, 64afab39aab99459189c53a8trello64ae6f476f946f8c451a5cba, 6501aca0660851f5ff150d93another TODOOO item64ae6f476f946f8c451a5cba, 64e5dc4ad15e3be6e8f08f75another item to add64ae6f476f946f8c451a5cba, 6511a35eb539a8df5e035b60some random64ae6f476f946f8c451a5cba]
+2023-09-27 16:31:51,752 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9, 64afab39aab99459189c53a8trello64ae6f476f946f8c451a5cba, 6501aca0660851f5ff150d93another TODOOO item64ae6f476f946f8c451a5cba, 64e5dc4ad15e3be6e8f08f75another item to add64ae6f476f946f8c451a5cba, 6511a35eb539a8df5e035b60some random64ae6f476f946f8c451a5cba, 64afab7091a51e58ba073e94api key64ae6f476f946f8c451a5cbb]
+2023-09-27 16:31:51,753 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9, 64afab39aab99459189c53a8trello64ae6f476f946f8c451a5cba, 6501aca0660851f5ff150d93another TODOOO item64ae6f476f946f8c451a5cba, 64e5dc4ad15e3be6e8f08f75another item to add64ae6f476f946f8c451a5cba, 6511a35eb539a8df5e035b60some random64ae6f476f946f8c451a5cba, 64afab7091a51e58ba073e94api key64ae6f476f946f8c451a5cbb, 65119afd1e2a08f976bf8f7cadding a whole new item264ae6f476f946f8c451a5cbb]
+2023-09-27 16:31:51,754 INFO : DEBUG
+  WHERE:    app.py index route 
+  WHAT:     building items 
+  VARNAME:  items 
+  TYPE:     <class 'list'> 
+  CONTENTS: [64afab436f44a8cb39b7f8c2integrate64ae6f476f946f8c451a5cb9, 64afab48cf5fce0d1f77a10dexperiment64ae6f476f946f8c451a5cb9, 6501adafec362d7adea3d11cmy todo task64ae6f476f946f8c451a5cb9, 64afab39aab99459189c53a8trello64ae6f476f946f8c451a5cba, 6501aca0660851f5ff150d93another TODOOO item64ae6f476f946f8c451a5cba, 64e5dc4ad15e3be6e8f08f75another item to add64ae6f476f946f8c451a5cba, 6511a35eb539a8df5e035b60some random64ae6f476f946f8c451a5cba, 64afab7091a51e58ba073e94api key64ae6f476f946f8c451a5cbb, 65119afd1e2a08f976bf8f7cadding a whole new item264ae6f476f946f8c451a5cbb, 64e49dcc1348172ad0b29d0dAdd a done item64ae6f476f946f8c451a5cbb]
+2023-09-27 16:31:51,754 INFO : 127.0.0.1 - - [27/Sep/2023 16:31:51] "GET / HTTP/1.1" 200 -
+2023-09-27 16:31:51,785 INFO : 127.0.0.1 - - [27/Sep/2023 16:31:51] "[36mGET /static/LM.png HTTP/1.1[0m" 304 -
+2023-09-27 16:31:51,785 INFO : 127.0.0.1 - - [27/Sep/2023 16:31:51] "[36mGET /static/green-tick.png HTTP/1.1[0m" 304 -
