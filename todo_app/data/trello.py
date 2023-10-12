@@ -1,6 +1,6 @@
 import requests, json, os
 from todo_app.debugger import writelog
-from dotenv import load_dotenv, find_dotenv
+#from dotenv import load_dotenv, find_dotenv
 
 def get_trello_cards():
     TRELLO_BOARD_ID = os.getenv('TRELLO_BOARD_ID')
