@@ -98,3 +98,17 @@ Populate inventory list of IPs of managed nodes to provision:
 Command to provision a VM from an Ansible Control Node
 
     ec2-user@ControlNode:/home/ec2-user $ ansible-playbook .ansible/playbook2.yaml -i .ansible/inventory.ini
+
+
+## Docker
+
+You can build the two different environment containers with the appropriate command:
+```bash
+docker build --target production --tag todo-app:prod .
+docker build --target development --tag todo-app:dev .
+```
+And run with:
+```bash
+docker run -d --env-file .env.docker -p 8000:8000 --mount type=bind,source="$(pwd)"/todo_app,target=/app/todo_app todo-app:prod
+docker run -d --env-file .env -p 5000:5000 todo-app:dev
+```

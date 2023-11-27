@@ -1,10 +1,6 @@
-
-#from typing import Iterable
-
 from typing import Any
 from todo_app.debugger import writelog
 from todo_app.ItemClass import Item
-#from dotenv import load_dotenv, find_dotenv
 import os
 
 class ViewModel:
