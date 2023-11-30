@@ -1,0 +1,27 @@
+#comment 
+todoapp.service
+.env.j2
+.env.docker
+.venv
+
+pull_request_template.md
+logs
+hooks
+refs
+Lib
+pyvenv.cfg
+v
+CACHEDIR.TAG
+Scripts
+tests
+FETCH_HEAD
+ORIG_HEAD
+ORIG_HEAD
+config
+objects
+
+# comment	Ignored.
+# */temp*	Exclude files and directories whose names start with temp in any immediate subdirectory of the root. For example, the plain file /somedir/temporary.txt is excluded, as is the directory /somedir/temp.
+# */*/temp*	Exclude files and directories starting with temp from any subdirectory that is two levels below the root. For example, /somedir/subdir/temporary.txt is excluded.
+# temp?	Exclude files and directories in the root directory whose names are a one-character extension of temp. For example, /tempa and /tempb are excluded.
+# **/<filename> will ignore at any level of nesting

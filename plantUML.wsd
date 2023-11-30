@@ -1,0 +1,11 @@
+@startuml Todo
+actor User
+participant Todo App
+database Trello
+
+User <-> (Todo App): Todo itmes (Create, Update, Delete, Complete)
+cloud Internet{
+    Todo App <-> Trello: Trello REST API 
+}
+@enduml
+'preview not working without JRE installed - no thank you!
