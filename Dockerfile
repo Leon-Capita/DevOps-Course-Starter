@@ -16,3 +16,12 @@ FROM base as development
 ENV environment=development
 ENTRYPOINT ["poetry", "run", "flask", "run", "--host=0.0.0.0"]
 
+FROM base as test
+RUN apt-get update && apt-get install -y firefox-esr curl --fix-missing
+ENV GECKODRIVER_VER v0.33.0
+RUN curl -ksSLO https://github.com/mozilla/geckodriver/releases/download/${GECKODRIVER_VER}/geckodriver-${GECKODRIVER_VER}-linux64.tar.gz \
+   && tar zxf geckodriver-*.tar.gz \
+   && mv geckodriver /usr/bin/ \
+   && rm geckodriver-*.tar.gz
+ENTRYPOINT ["poetry", "run", "pytest"]
+

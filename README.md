@@ -109,6 +109,6 @@ docker build --target development --tag todo-app:dev .
 ```
 And run with:
 ```bash
-docker run -d --env-file .env.docker -p 8000:8000 --mount type=bind,source="$(pwd)"/todo_app,target=/app/todo_app todo-app:prod
-docker run -d --env-file .env -p 5000:5000 todo-app:dev
+docker run -d --env-file .env.docker -p 8000:8000 todo-app:prod
+docker run -d --env-file .env -p 5000:5000 --mount type=bind,source="$(pwd)"/todo_app,target=/app/todo_app todo-app:dev 
 ```
