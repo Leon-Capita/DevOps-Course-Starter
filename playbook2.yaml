@@ -1,0 +1,99 @@
+- name: Projex4 - run your To-Do app on the managed VM
+  hosts: managedNodes
+  remote_user: ec2-user
+
+  vars_prompt:
+    - name: TRELLO_BOARD_ID
+      prompt: Please enter Trello Board ID >
+      default: 64ae6f476f946f8c451a5cb2
+      private: false
+
+    - name: TRELLO_TODO_ID
+      prompt: Please enter Trello TODO List ID >
+      default: 64ae6f476f946f8c451a5cb9
+      private: false
+
+    - name: TRELLO_DOIN_ID
+      prompt: Please enter Trello DOIN List ID >
+      default: 64ae6f476f946f8c451a5cba
+      private: false
+
+    - name: TRELLO_DONE_ID
+      prompt: Please enter Trello DONE List ID > 
+      default: 64ae6f476f946f8c451a5cbb
+      private: false
+
+    - name: TRELLO_APIKEY
+      prompt: Please enter Trello API key > 
+      #default: 7d069c46c188afd7a7eaeb18851b9fac #sensitive so 'not' committing to git
+      private: true
+
+    - name: TRELLO_TOKEN
+      prompt: Please enter Trello token >
+      #default: ATTAcff8cd91ef9d8108a296d4954de006c36a5f27507477246e8cd87d76edbdf881F66B1476 #sensitive so 'not' committing to git
+      private: true
+
+  tasks:
+  - name: use the Yum package manager to install Git and Python3
+    ansible.builtin.yum:
+      name:
+        - git
+    become: yes
+  
+  - name: 'Install Python Dependencies: part 3'
+    ansible.builtin.command: sudo yum install libffi-devel bzip2-devel wget openssl11-devel -y --skip-broken
+
+  - name: Add path for Ansible
+    ansible.builtin.shell: 
+      "PATH=$PATH:/usr/local/bin:/usr/local/lib"
+
+  - name: Install Poetry by running a curl command and piping the result into Python
+    ansible.builtin.shell: 
+      cmd:
+        curl -sSL https://install.python-poetry.org | python3 -
+    args:
+      creates: /home/ec2-user/.local/share/pypoetry
+
+  - name: Create directory for the To-Do App code
+    ansible.builtin.file:
+      path: /opt/todoapp
+      state: directory
+      owner: ec2-user
+      group: ec2-user
+      mode: '744'
+    become: yes
+
+  - name: "Get the latest version of your code with Git"
+    ansible.builtin.git:
+      repo: https://github.com/Leon-Capita/DevOps-Course-Starter.git
+      dest: /opt/todoapp
+      version: exercise-3a
+      force: yes
+    #become: yes
+
+  - name: Install Project Dependencies
+    ansible.builtin.shell:
+      cmd: /home/ec2-user/.local/bin/poetry install 
+      chdir: /opt/todoapp
+    #become: yes
+
+  - name: Create a .env file on the host
+    ansible.builtin.template:
+      src: /home/ec2-user/.env.j2
+      dest: /opt/todoapp/.env
+      mode: '640' 
+  
+  - name: Copy todoapp.service
+    ansible.builtin.template:
+      src: /home/ec2-user/todoapp.service
+      dest: /etc/systemd/system/todoapp.service
+      group: ec2-user
+      mode: '744'
+    become: yes
+
+  - name: Start To-Do App
+    ansible.builtin.systemd:
+      name: todoapp.service
+      daemon_reload: true
+      state: restarted #reloaded|stopped|started
+    become: yes
