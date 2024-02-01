@@ -4,7 +4,9 @@ RUN chmod 775 /opt/todoapp
 WORKDIR /opt/todoapp
 COPY . .
 RUN pip install poetry 
-RUN poetry install
+# RUN poetry install
+# https://project-exercises.devops.corndel.com/exercises/m8_exercise Step 4.3 You may encounter issues with Python virtual environments in containers on Azure. Adjust your Dockerfile to run Poetry without a virtualenv: use RUN poetry config virtualenvs.create false --local && poetry install instead of just RUN poetry install. There’s no need to create a virtualenv in your image anyway, as the container itself is an isolated environment.
+RUN poetry config virtualenvs.create false --local && poetry install
 
 FROM base as production
 ENV environment=production

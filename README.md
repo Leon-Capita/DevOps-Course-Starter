@@ -112,3 +112,48 @@ And run with:
 docker run -d --env-file .env.docker -p 8000:8000 todo-app:prod
 docker run -d --env-file .env -p 5000:5000 --mount type=bind,source="$(pwd)"/todo_app,target=/app/todo_app todo-app:dev 
 ```
+
+### Put Container Image on Docker Hub registry
+
+Logging into DockerHub locally
+```bash 
+ docker login
+ ```
+
+Building the image, with
+```bash 
+ docker build --target <my_build_phase> --tag <image_tag> .
+```
+
+Tag an image referenced by Name and Tag, with
+```bash 
+ docker tag todo-app:prod leonmilcap/m8repo
+```
+
+Pushing the image, with
+```bash 
+ docker push leonmilcap/m8repo:latest
+ ```
+
+ ### Create a Web App
+
+ First create an App Service Plan: 
+ ```bash
+ PS C:\temp\devops\projex\DevOps-Course-Starter2> az appservice plan create --resource-group Cohort28_LeoMil_ProjectExercise -n M8appservice_plan_name2 --sku B1 --is-linux
+ ```
+Then create the Web App: 
+```bash 
+az webapp create --resource-group Cohort28_LeoMil_ProjectExercise --plan M8appservice_plan_name2 --name M8webapp2 --deployment-container-image-name docker.io/leonmilcap/m8repo:latest
+```
+### Set up environment variables
+
+Add environment variables through either Portal (Settings -> Configuration.  Add all the environment variables as “New application setting”) or through the CLI - individually:
+```bash
+az webapp config appsettings set -g Cohort28_LeoMil_ProjectExercise -n M8webapp2 --settings FLASK_APP=todo_app/app.
+```
+Or you can pass in a JSON file containing all variables by using --settings @foo.json
+
+
+### Link to docker hub repo
+
+https://hub.docker.com/repository/docker/leonmilcap/m8repo
