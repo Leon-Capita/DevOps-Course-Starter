@@ -6,7 +6,7 @@ jobs:
     name: Build and test
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     #- run: echo Hello World
     - run: docker build --target test --tag my-test-image .
     - run: docker run my-test-image
