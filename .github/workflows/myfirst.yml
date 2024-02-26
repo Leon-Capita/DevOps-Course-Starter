@@ -1,8 +1,15 @@
 name: CI
 on: push
 jobs:
+  build-test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: docker build --target test --tag my-test-image .
+      - run: docker run my-test-image
+
   prod-check:
     #if: ${{ github.ref == 'refs/heads/main' }}
+    if: ${{ github.ref == 'refs/heads/exercise-9' }}
     runs-on: ubuntu-latest
     steps:
       - run: echo "Deploying to production server on branch $GITHUB_REF"
@@ -18,5 +25,7 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
           
       - run: echo "job2 placeholder"
+      - run: docker build --target production --tag leonmilcap/m9repo:latest .
+      - run: docker push leonmilcap/m9repo:latest
       
 
