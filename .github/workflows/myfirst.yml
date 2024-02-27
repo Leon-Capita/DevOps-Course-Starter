@@ -33,6 +33,8 @@ jobs:
       - run: docker push leonmilcap/m9repo:latest
       - env: 
           WEBHOOK: ${{ secrets.AZWA_WEBHOOK }}
-        run: curl -dH --fail -X POST $WEBHOOK
+          #WEBHOOK: "${{ secrets.AZWA_WEBHOOK }}" #"" needed as escaped $
+        #run: curl -dH --fail -X POST $WEBHOOK
+        run: curl -dH --fail -X POST '$WEBHOOK'
       
 
