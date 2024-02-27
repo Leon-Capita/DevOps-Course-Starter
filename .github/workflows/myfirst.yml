@@ -31,9 +31,8 @@ jobs:
           labels: production
       - run: docker build --target production --tag leonmilcap/m9repo:latest .
       - run: docker push leonmilcap/m9repo:latest
-        env:
+      - env: 
           WEBHOOK: ${{ secrets.AZWA_WEBHOOK }}
-      - run: echo $WEBHOOK
-      - run: curl -dH --fail -X POST $WEBHOOK
+        run: curl -dH --fail -X POST $WEBHOOK
       
 
