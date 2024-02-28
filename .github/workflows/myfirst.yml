@@ -1,11 +1,11 @@
 name: CI
 on: push
 jobs:
-  #build-test:
-    #runs-on: ubuntu-latest
-    #steps:
-      #- run: docker build --target test --tag my-test-image .
-      #- run: docker run my-test-image
+  build-test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: docker build --target test --tag my-test-image .
+      - run: docker run my-test-image
 
   prod-check:
     #if: ${{ github.ref == 'refs/heads/main' }}
