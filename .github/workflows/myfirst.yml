@@ -25,9 +25,6 @@ jobs:
     
     steps:
       - uses: actions/checkout@v3
-      #- uses: actions/checkout@5f6796be8905cf35cb55bea0a4e62158c4bf116d 
-      #- uses: actions/checkout@exercise-9
-      #- uses: satackey/action-docker-layer-caching@v0.0.11
         continue-on-error: true
       - uses: docker/login-action@v3
         with: 
@@ -38,7 +35,6 @@ jobs:
         with:
           push: true
           tags: leonmilcap/m9repo:latest
-          #labels: production
           target: production
           context: .
           cache-from: type=gha
