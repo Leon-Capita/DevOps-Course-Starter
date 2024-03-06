@@ -37,10 +37,11 @@ jobs:
         with:
           push: true
           tags: leonmilcap/m9repo:latest
-          labels: production
+          #labels: production
+          target: production
 
-      - run: docker build --target production --tag leonmilcap/m9repo:latest . #--cache-from (?)
-      - run: docker push leonmilcap/m9repo:latest
+      #- run: docker build --target production --tag leonmilcap/m9repo:latest . #--cache-from (?)
+      #- run: docker push leonmilcap/m9repo:latest
       - env: 
           WEBHOOK: ${{ secrets.AZWA_WEBHOOK }}
         run: curl -dH --fail -X POST $WEBHOOK
