@@ -157,3 +157,7 @@ Or you can pass in a JSON file containing all variables by using --settings @foo
 ### Link to docker hub repo
 
 https://hub.docker.com/repository/docker/leonmilcap/m8repo
+
+### Link to Azure published web app
+
+https://m8webapp2.azurewebsites.net/
